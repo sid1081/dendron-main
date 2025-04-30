@@ -1,0 +1,11 @@
+{
+    "name": "main dendron workspace",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/dendronhq/template.publish.github-action.git",
+    "author": "Sid <ssharma1081@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@dendronhq/dendron-cli": "^0.106.0"
+    }
+}
