@@ -2,11 +2,12 @@
 id: 954ui8ssdzn50me68v9qv54
 title: Message Renderer
 desc: ''
-updated: 1746034476267
+updated: 1746645835862
 created: 1745503917488
 ---
+## Design
 
-### Step 1 - _1.5 weeks_
+### SP.Message Renderer.Step 1- _1.5 weeks_
 
 The general idea here would be to create a RAG based system, where in we store the `messageJSON` along with some `metadata`(description of the messageJSON) in a vector database and then test the validity of the retrival and generation capabilites of the LLM.
 
@@ -25,3 +26,23 @@ Assuming that the RAG approach works, we will then build out an assistant type e
 ### Step 4 - _? weeks_
 
 We will then build out the front-end integrations within portal to integrate with this message rendering service. The integration will be a chat like experience where in you can have a conversation with an "agent" to build you a message. 
+
+### Setting expectations
+
+- What percentage of customer messages do you want the AI renderer to automate?
+
+- How much quicker are customers able to setup messages?
+
+- How much human labor does the chatbot save?
+
+- What is the customer sentiment and feedback for this system?
+
+
+### Milestone planning
+
+- End customer review of message quality
+
+- Cost: how much it costs / inference
+
+### Maintenance
+

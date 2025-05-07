@@ -2,11 +2,14 @@
 id: lgx7yt4m652gdnjzysqljk5
 title: Goals
 desc: ''
-updated: 1744229639888
+updated: 1746574412634
 created: 1741107145309
 ---
 - [[Statistics]]
     - OpenStax Intro to Statistics - _In-Progress_
+
+- [[Knowledge Base]]
+    - Dendron A Day video: https://www.youtube.com/watch?v=1mXGyG9ikD4
 
 - [[Math]]
     - [[Math.Pre-Calculus]]
