@@ -6,6 +6,6 @@
     "author": "Sid <ssharma1081@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "@dendronhq/dendron-cli": "^0.106.0"
+        "@dendronhq/dendron-cli": "^0.124.2"
     }
 }
