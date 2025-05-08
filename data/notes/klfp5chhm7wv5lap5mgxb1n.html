@@ -1,0 +1,75 @@
+<h1 id="auth-consent"><a aria-hidden="true" class="anchor-heading icon-link" href="#auth-consent"></a>Auth Consent</h1>
+<h1 id="implementing-auth-consent-for-preferences"><a aria-hidden="true" class="anchor-heading icon-link" href="#implementing-auth-consent-for-preferences"></a>Implementing auth consent for preferences</h1>
+<h2 id="get-consent-status-flow"><a aria-hidden="true" class="anchor-heading icon-link" href="#get-consent-status-flow"></a>/GET Consent status flow</h2>
+<ul>
+<li>if valid <code>authId</code> present
+<ul>
+<li>if <code>uuidGenerated</code>
+<ul>
+<li>get <code>authMapping(uuid)</code> by <code>authId</code></li>
+<li>set the preference <code>uuid</code> value in local-storage.
+<ul>
+<li>If no authMapping
+<ul>
+<li>we don't neede to call get user consent.</li>
+</ul>
+</li>
+<li>Else if authMapping 
+<ul>
+<li>get the user consent for this  <code>uuid</code> since it might have changed on another device.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>else if a <code>uuid</code> was passed and it <em>wasn't</em> generated
+<ul>
+<li>get <code>authMapping(uuid)</code> by <code>authId</code>
+<ul>
+<li>if <em>no</em> <code>authMapping</code> exists for this <code>authId</code>, 
+<ul>
+<li>then <em>create</em> the <code>authMapping</code> record to store this new mapping between the <code>authId</code> and the <code>uuid</code>.</li>
+<li>get the user consent for this <code>uuid</code> since it might have changed on some other device.</li>
+</ul>
+</li>
+<li>else if <code>authMapping</code> exists 
+<ul>
+<li>if <code>linkedUuid</code> is the same
+<ul>
+<li>if <code>localData</code> is current then short circuit</li>
+<li>else if <code>localData</code> is <em>not</em> current. <em>Does this happen through the VL?</em>
+<ul>
+<li>get the user consent for this <code>uuid</code> since it might have changed on some other device.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>else if <code>linkedUuid</code> is <em>not</em> the same
+<ul>
+<li>get the user consent for this new <code>uuid</code> since it might have changed on another device. We use the linked UUID to fetch the consent data since that is the latest uuid that might have newer changes.</li>
+<li>set the preference <code>uuid</code> value in local-storage</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>else
+<ul>
+<li>Nothing to do.</li>
+</ul>
+</li>
+</ul>
+<h2 id="post-preference-flow"><a aria-hidden="true" class="anchor-heading icon-link" href="#post-preference-flow"></a>/POST preference flow</h2>
+<ul>
+<li>if valid <code>authId</code> and <code>uuid</code> present, then create <code>user preference</code> and <code>authMapping</code>.O</li>
+</ul>
+<h2 id="open-questions"><a aria-hidden="true" class="anchor-heading icon-link" href="#open-questions"></a>Open Questions</h2>
+<ul>
+<li>Why are we checking to see if the uuids are the same for the short circuit?</li>
+</ul>

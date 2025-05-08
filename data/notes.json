@@ -1,0 +1,3808 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038920,
+      "created": 1746716038920,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "root": {
+      "id": "root",
+      "title": "root",
+      "desc": "",
+      "updated": 1746040151076,
+      "created": 1595961348801,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "3338f3f44ea53fff248fd70b6ad85170",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "oz8e6a05bjgd3cbtru3hqe2",
+        "c1bs7wsjfbhb0zipaywqv1",
+        "3x4fmd16chquma6kovvfatj",
+        "gdjyzsq56qgyj5t5uktrsgu",
+        "69h59jt3vyfdg55g7gqc95d",
+        "wz9z8az9m9aq5132p7d10co",
+        "l1lcmphk4ubvu1aiqhcs7ib",
+        "bd3mupfj68nrgnjejss1qqh",
+        "1tlnuf6o2f3qawzg799ilzk",
+        "z5mfdumpr0cv3ceh60flq8n",
+        "filwymswyiwdojrwinvy5xd"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "filwymswyiwdojrwinvy5xd": {
+      "fname": "templates",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038327,
+      "created": 1746716038327,
+      "id": "filwymswyiwdojrwinvy5xd",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "01qim18175g75vsw45u3ul0"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Templates"
+    },
+    "01qim18175g75vsw45u3ul0": {
+      "id": "01qim18175g75vsw45u3ul0",
+      "title": "Daily Journal Template",
+      "desc": "",
+      "updated": 1746458692259,
+      "created": 1746458692259,
+      "custom": {},
+      "fname": "templates.daily",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "d88f38d5dc487eade95f681253f7e7a1",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "templates.daily",
+            "id": "01qim18175g75vsw45u3ul0",
+            "vaultName": "Dendron"
+          },
+          "value": "templates.daily",
+          "alias": "templates.daily",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 68,
+              "offset": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 87,
+              "offset": 86
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "templates.daily"
+          }
+        }
+      ],
+      "anchors": {
+        "morning": {
+          "type": "header",
+          "text": "Morning",
+          "value": "morning",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "gratitude": {
+          "type": "header",
+          "text": "Gratitude",
+          "value": "gratitude",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "what-would-make-today-great": {
+          "type": "header",
+          "text": "What would make today great?",
+          "value": "what-would-make-today-great",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "daily-affirmations": {
+          "type": "header",
+          "text": "Daily affirmations",
+          "value": "daily-affirmations",
+          "line": 34,
+          "column": 0,
+          "depth": 3
+        },
+        "evening": {
+          "type": "header",
+          "text": "Evening",
+          "value": "evening",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        },
+        "amazing-things-that-happened-today": {
+          "type": "header",
+          "text": "Amazing things that happened today",
+          "value": "amazing-things-that-happened-today",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "how-could-i-have-made-today-even-better": {
+          "type": "header",
+          "text": "How could I have made today even better?",
+          "value": "how-could-i-have-made-today-even-better",
+          "line": 48,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "filwymswyiwdojrwinvy5xd",
+      "data": {}
+    },
+    "z5mfdumpr0cv3ceh60flq8n": {
+      "fname": "task",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038326,
+      "created": 1746716038326,
+      "id": "z5mfdumpr0cv3ceh60flq8n",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "wazdc4ng17k2avtkt1t4w0t",
+        "yqhti7mddjq3ujamya39b39",
+        "kyx4w6mlxukzg6ch1dd0pn5"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Task"
+    },
+    "kyx4w6mlxukzg6ch1dd0pn5": {
+      "fname": "task.2025",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038330,
+      "created": 1746716038330,
+      "id": "kyx4w6mlxukzg6ch1dd0pn5",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "3p9ohrqv1juq7jdm4aado06"
+      ],
+      "parent": "z5mfdumpr0cv3ceh60flq8n",
+      "data": {},
+      "title": "2025"
+    },
+    "3p9ohrqv1juq7jdm4aado06": {
+      "fname": "task.2025.05",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038330,
+      "created": 1746716038330,
+      "id": "3p9ohrqv1juq7jdm4aado06",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "u31ofemlzbjl0q9yr81imh9"
+      ],
+      "parent": "kyx4w6mlxukzg6ch1dd0pn5",
+      "data": {},
+      "title": "05"
+    },
+    "u31ofemlzbjl0q9yr81imh9": {
+      "fname": "task.2025.05.07",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038330,
+      "created": 1746716038330,
+      "id": "u31ofemlzbjl0q9yr81imh9",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "2x2n5a0dcjeqg5695qj0hwl"
+      ],
+      "parent": "3p9ohrqv1juq7jdm4aado06",
+      "data": {},
+      "title": "07"
+    },
+    "2x2n5a0dcjeqg5695qj0hwl": {
+      "fname": "task.2025.05.07.SP",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038330,
+      "created": 1746716038330,
+      "id": "2x2n5a0dcjeqg5695qj0hwl",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "xgc3g6p23zra2vucy0e8gv8"
+      ],
+      "parent": "u31ofemlzbjl0q9yr81imh9",
+      "data": {},
+      "title": "SP"
+    },
+    "xgc3g6p23zra2vucy0e8gv8": {
+      "id": "xgc3g6p23zra2vucy0e8gv8",
+      "title": "Messager Rendere",
+      "desc": "",
+      "updated": 1746645700722,
+      "created": 1746640517165,
+      "status": "done",
+      "due": "",
+      "priority": "",
+      "owner": "",
+      "custom": {
+        "status": "done",
+        "due": "",
+        "priority": "",
+        "owner": ""
+      },
+      "fname": "task.2025.05.07.SP.Messager Renderer",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "216e2b89ec7b95c01bc9153a262258a8",
+      "links": [
+        {
+          "from": {
+            "fname": "task.journal.2025.05.07",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 17,
+              "offset": 440
+            },
+            "end": {
+              "line": 14,
+              "column": 57,
+              "offset": 480
+            },
+            "indent": []
+          },
+          "value": "task.2025.05.07.SP.Messager Renderer",
+          "alias": "task.2025.05.07.SP.Messager Renderer"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "2x2n5a0dcjeqg5695qj0hwl",
+      "data": {}
+    },
+    "yqhti7mddjq3ujamya39b39": {
+      "fname": "task.journal",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038330,
+      "created": 1746716038330,
+      "id": "yqhti7mddjq3ujamya39b39",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "4m27csu12x911pxmkh1jx41"
+      ],
+      "parent": "z5mfdumpr0cv3ceh60flq8n",
+      "data": {},
+      "title": "Journal"
+    },
+    "4m27csu12x911pxmkh1jx41": {
+      "fname": "task.journal.2025",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038330,
+      "created": 1746716038330,
+      "id": "4m27csu12x911pxmkh1jx41",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "0w0u8rwuwcqakc33hhcabqq"
+      ],
+      "parent": "yqhti7mddjq3ujamya39b39",
+      "data": {},
+      "title": "2025"
+    },
+    "0w0u8rwuwcqakc33hhcabqq": {
+      "fname": "task.journal.2025.05",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038330,
+      "created": 1746716038330,
+      "id": "0w0u8rwuwcqakc33hhcabqq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "157xfh4lyrn9d16pxcnmb0g"
+      ],
+      "parent": "4m27csu12x911pxmkh1jx41",
+      "data": {},
+      "title": "05"
+    },
+    "157xfh4lyrn9d16pxcnmb0g": {
+      "id": "157xfh4lyrn9d16pxcnmb0g",
+      "title": "2025-05-07",
+      "desc": "",
+      "updated": 1746661681981,
+      "created": 1746629216841,
+      "traitIds": [
+        "journalNote"
+      ],
+      "custom": {},
+      "fname": "task.journal.2025.05.07",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "4350089ebd8ed4d0f9a4e985660417e0",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "task.journal.2025.05.07",
+            "id": "157xfh4lyrn9d16pxcnmb0g",
+            "vaultName": "Dendron"
+          },
+          "value": "task.2025.05.07.SP.Messager Renderer",
+          "alias": "task.2025.05.07.SP.Messager Renderer",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 17,
+              "offset": 440
+            },
+            "end": {
+              "line": 14,
+              "column": 57,
+              "offset": 480
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "task.2025.05.07.SP.Messager Renderer"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "task.journal.2025.05.07",
+            "id": "157xfh4lyrn9d16pxcnmb0g",
+            "vaultName": "Dendron"
+          },
+          "value": "SP.Message Renderer.Step 1",
+          "alias": "SP.Message Renderer.Step 1",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 60,
+              "offset": 483
+            },
+            "end": {
+              "line": 14,
+              "column": 90,
+              "offset": 513
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "SP.Message Renderer.Step 1"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "0w0u8rwuwcqakc33hhcabqq",
+      "data": {}
+    },
+    "wazdc4ng17k2avtkt1t4w0t": {
+      "id": "wazdc4ng17k2avtkt1t4w0t",
+      "title": "MSAI UPenn Application",
+      "desc": "",
+      "updated": 1746628859096,
+      "created": 1746560992388,
+      "status": "done",
+      "due": "2025.05.07",
+      "priority": "H",
+      "owner": "Sid",
+      "custom": {
+        "status": "done",
+        "due": "2025.05.07",
+        "priority": "H",
+        "owner": "Sid"
+      },
+      "fname": "task.MSAI UPenn Application",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "5bbd378ce1de1d039d5601d57bddf549",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "task.MSAI UPenn Application",
+            "id": "wazdc4ng17k2avtkt1t4w0t",
+            "vaultName": "Dendron"
+          },
+          "value": "Siddharth.UPenn.SOP",
+          "alias": "Siddharth.UPenn.SOP",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 13,
+              "offset": 13
+            },
+            "end": {
+              "line": 2,
+              "column": 36,
+              "offset": 36
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Siddharth.UPenn.SOP"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "z5mfdumpr0cv3ceh60flq8n",
+      "data": {}
+    },
+    "1tlnuf6o2f3qawzg799ilzk": {
+      "fname": "TS",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038326,
+      "created": 1746716038326,
+      "id": "1tlnuf6o2f3qawzg799ilzk",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "kkyhgif43cearrkfoy8lq88"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "TS"
+    },
+    "kkyhgif43cearrkfoy8lq88": {
+      "id": "kkyhgif43cearrkfoy8lq88",
+      "title": "Setup",
+      "desc": "",
+      "updated": 1741208983448,
+      "created": 1741208889172,
+      "custom": {},
+      "fname": "TS.Setup",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "edeb4e659c7acac440dade07acee59d7",
+      "links": [],
+      "anchors": {
+        "setup-for-node-for-typescript": {
+          "type": "header",
+          "text": "Setup for Node for Typescript",
+          "value": "setup-for-node-for-typescript",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "packagejson-setup": {
+          "type": "header",
+          "text": "Package.json setup",
+          "value": "packagejson-setup",
+          "line": 19,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "1tlnuf6o2f3qawzg799ilzk",
+      "data": {}
+    },
+    "bd3mupfj68nrgnjejss1qqh": {
+      "fname": "Siddharth",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038325,
+      "created": 1746716038325,
+      "id": "bd3mupfj68nrgnjejss1qqh",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "o6psb2x2gkkpqfl9py3zfh0",
+        "lgx7yt4m652gdnjzysqljk5",
+        "9b69j5iu1lnlifi9bcxntut",
+        "84jmsnscaab6df7in8r59qf",
+        "uyjd4kx68gx065wutfac0sz",
+        "haiy5t3m4tukr2bbv99eg88"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Siddharth"
+    },
+    "haiy5t3m4tukr2bbv99eg88": {
+      "fname": "Siddharth.UPenn",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038329,
+      "created": 1746716038329,
+      "id": "haiy5t3m4tukr2bbv99eg88",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "qpqvf2pczk7eci56g1v2y69"
+      ],
+      "parent": "bd3mupfj68nrgnjejss1qqh",
+      "data": {},
+      "title": "UPenn"
+    },
+    "qpqvf2pczk7eci56g1v2y69": {
+      "id": "qpqvf2pczk7eci56g1v2y69",
+      "title": "SOP",
+      "desc": "",
+      "updated": 1746624575147,
+      "created": 1746481285980,
+      "custom": {},
+      "fname": "Siddharth.UPenn.SOP",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "9e10cca12531868a0b7adbfc8894c7f5",
+      "links": [
+        {
+          "from": {
+            "fname": "task.MSAI UPenn Application",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 13,
+              "offset": 13
+            },
+            "end": {
+              "line": 2,
+              "column": 36,
+              "offset": 36
+            },
+            "indent": []
+          },
+          "value": "Siddharth.UPenn.SOP",
+          "alias": "Siddharth.UPenn.SOP"
+        }
+      ],
+      "anchors": {
+        "statement-of-purpose---ms-in-artificial-intelligence": {
+          "type": "header",
+          "text": "Statement of Purpose - MS in Artificial Intelligence",
+          "value": "statement-of-purpose---ms-in-artificial-intelligence",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "university-of-pennsylvania---engineering": {
+          "type": "header",
+          "text": "University of Pennsylvania - Engineering",
+          "value": "university-of-pennsylvania---engineering",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "professional-background-and-transition-to-ai": {
+          "type": "header",
+          "text": "Professional Background and Transition to AI",
+          "value": "professional-background-and-transition-to-ai",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "why-ai-now": {
+          "type": "header",
+          "text": "Why AI Now?",
+          "value": "why-ai-now",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "why-upenns-ms-ai-program": {
+          "type": "header",
+          "text": "Why UPenn's MS-AI Program?",
+          "value": "why-upenns-ms-ai-program",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "future-vision": {
+          "type": "header",
+          "text": "Future Vision",
+          "value": "future-vision",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "why-i-will-succeed-in-the-program": {
+          "type": "header",
+          "text": "Why I Will Succeed in the Program",
+          "value": "why-i-will-succeed-in-the-program",
+          "line": 38,
+          "column": 0,
+          "depth": 3
+        },
+        "how-i-will-contribute-to-the-mse-ai-online-community": {
+          "type": "header",
+          "text": "How I Will Contribute to the MSE-AI Online Community",
+          "value": "how-i-will-contribute-to-the-mse-ai-online-community",
+          "line": 44,
+          "column": 0,
+          "depth": 3
+        },
+        "managing-the-time-commitment": {
+          "type": "header",
+          "text": "Managing the Time Commitment",
+          "value": "managing-the-time-commitment",
+          "line": 54,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "haiy5t3m4tukr2bbv99eg88",
+      "data": {}
+    },
+    "uyjd4kx68gx065wutfac0sz": {
+      "fname": "Siddharth.Content",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038329,
+      "created": 1746716038329,
+      "id": "uyjd4kx68gx065wutfac0sz",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "k8rb1hbsxrmb9df7wxfzg9m",
+        "fn85nepxzhmx7ql22m5vxd5",
+        "50smwqnan2d83c0s0vla8ol"
+      ],
+      "parent": "bd3mupfj68nrgnjejss1qqh",
+      "data": {},
+      "title": "Content"
+    },
+    "50smwqnan2d83c0s0vla8ol": {
+      "id": "50smwqnan2d83c0s0vla8ol",
+      "title": "Video 3",
+      "desc": "",
+      "updated": 1744119423069,
+      "created": 1744119356189,
+      "custom": {},
+      "fname": "Siddharth.Content.Video 3",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "d29cbc92ac96434cff4604c960f822d6",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "uyjd4kx68gx065wutfac0sz",
+      "data": {}
+    },
+    "fn85nepxzhmx7ql22m5vxd5": {
+      "id": "fn85nepxzhmx7ql22m5vxd5",
+      "title": "Video 2",
+      "desc": "",
+      "updated": 1744050097952,
+      "created": 1744049108192,
+      "custom": {},
+      "fname": "Siddharth.Content.Video 2",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "40e8125f478fa40938c2362d77a47575",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "uyjd4kx68gx065wutfac0sz",
+      "data": {}
+    },
+    "k8rb1hbsxrmb9df7wxfzg9m": {
+      "id": "k8rb1hbsxrmb9df7wxfzg9m",
+      "title": "Video 1",
+      "desc": "",
+      "updated": 1744057351382,
+      "created": 1744048616036,
+      "custom": {},
+      "fname": "Siddharth.Content.Video 1",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "5fb32d753dc887c3456567149f4ec067",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "uyjd4kx68gx065wutfac0sz",
+      "data": {}
+    },
+    "84jmsnscaab6df7in8r59qf": {
+      "fname": "Siddharth.Architecture",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038329,
+      "created": 1746716038329,
+      "id": "84jmsnscaab6df7in8r59qf",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "kcua1jqpela383vrca43ku9"
+      ],
+      "parent": "bd3mupfj68nrgnjejss1qqh",
+      "data": {},
+      "title": "Architecture"
+    },
+    "kcua1jqpela383vrca43ku9": {
+      "id": "kcua1jqpela383vrca43ku9",
+      "title": "SOP",
+      "desc": "",
+      "updated": 1746481016578,
+      "created": 1745929130981,
+      "custom": {},
+      "fname": "Siddharth.Architecture.SOP",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "dd1175ff8844ff673fba9f9abc4025f2",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "84jmsnscaab6df7in8r59qf",
+      "data": {}
+    },
+    "9b69j5iu1lnlifi9bcxntut": {
+      "id": "9b69j5iu1lnlifi9bcxntut",
+      "title": "TO-DOs",
+      "desc": "",
+      "updated": 1746574438475,
+      "created": 1743951212339,
+      "custom": {},
+      "fname": "Siddharth.TO-DOs",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ee07e762361dbd63ebad6bdf688727c3",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.TO-DOs",
+            "id": "9b69j5iu1lnlifi9bcxntut",
+            "vaultName": "Dendron"
+          },
+          "value": "ML",
+          "alias": "ML",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 5,
+              "offset": 290
+            },
+            "end": {
+              "line": 12,
+              "column": 11,
+              "offset": 296
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML"
+          }
+        }
+      ],
+      "anchors": {
+        "ml": {
+          "type": "header",
+          "text": "ML",
+          "value": "ml",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "bd3mupfj68nrgnjejss1qqh",
+      "data": {}
+    },
+    "lgx7yt4m652gdnjzysqljk5": {
+      "id": "lgx7yt4m652gdnjzysqljk5",
+      "title": "Goals",
+      "desc": "",
+      "updated": 1746574412634,
+      "created": 1741107145309,
+      "custom": {},
+      "fname": "Siddharth.Goals",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "827681656a9dcf2ec1ccc173c612e957",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Statistics",
+          "alias": "Statistics",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 3,
+              "offset": 2
+            },
+            "end": {
+              "line": 1,
+              "column": 17,
+              "offset": 16
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Statistics"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Knowledge Base",
+          "alias": "Knowledge Base",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 71
+            },
+            "end": {
+              "line": 4,
+              "column": 21,
+              "offset": 89
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Knowledge Base"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Math",
+          "alias": "Math",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 3,
+              "offset": 164
+            },
+            "end": {
+              "line": 7,
+              "column": 11,
+              "offset": 172
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Math"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Math.Pre-Calculus",
+          "alias": "Math.Pre-Calculus",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 7,
+              "offset": 179
+            },
+            "end": {
+              "line": 8,
+              "column": 28,
+              "offset": 200
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Math.Pre-Calculus"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Physics",
+          "alias": "Physics",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 3,
+              "offset": 293
+            },
+            "end": {
+              "line": 15,
+              "column": 14,
+              "offset": 304
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Physics"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Physics.OpenStax High School Physics",
+          "alias": "Physics.OpenStax High School Physics",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 7,
+              "offset": 311
+            },
+            "end": {
+              "line": 16,
+              "column": 47,
+              "offset": 351
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Physics.OpenStax High School Physics"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Design",
+          "alias": "Design",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 3,
+              "offset": 429
+            },
+            "end": {
+              "line": 22,
+              "column": 13,
+              "offset": 439
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Design"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "ML",
+          "alias": "ML",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 3,
+              "offset": 443
+            },
+            "end": {
+              "line": 24,
+              "column": 9,
+              "offset": 449
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "ML.3Blue1Brown",
+          "alias": "ML.3Blue1Brown",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 7,
+              "offset": 457
+            },
+            "end": {
+              "line": 25,
+              "column": 25,
+              "offset": 475
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML.3Blue1Brown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "ML.AK",
+          "alias": "ML.AK",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 7,
+              "offset": 482
+            },
+            "end": {
+              "line": 26,
+              "column": 16,
+              "offset": 491
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML.AK"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "ML.Scrimba AI Engineering Path",
+          "alias": "ML.Scrimba AI Engineering Path",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 7,
+              "offset": 498
+            },
+            "end": {
+              "line": 27,
+              "column": 41,
+              "offset": 532
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML.Scrimba AI Engineering Path"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Carpentry",
+          "alias": "Carpentry",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 3,
+              "offset": 536
+            },
+            "end": {
+              "line": 29,
+              "column": 16,
+              "offset": 549
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Carpentry"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Music Production",
+          "alias": "Music Production",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 3,
+              "offset": 553
+            },
+            "end": {
+              "line": 31,
+              "column": 23,
+              "offset": 573
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Music Production"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Music Production.Christopher Ledger",
+          "alias": "Music Production.Christopher Ledger",
+          "position": {
+            "start": {
+              "line": 32,
+              "column": 7,
+              "offset": 580
+            },
+            "end": {
+              "line": 32,
+              "column": 46,
+              "offset": 619
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Music Production.Christopher Ledger"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Ned Rush Videos",
+          "alias": "Ned Rush Videos",
+          "position": {
+            "start": {
+              "line": 33,
+              "column": 7,
+              "offset": 626
+            },
+            "end": {
+              "line": 33,
+              "column": 26,
+              "offset": 645
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Ned Rush Videos"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "DJ",
+          "alias": "DJ",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 3,
+              "offset": 649
+            },
+            "end": {
+              "line": 35,
+              "column": 9,
+              "offset": 655
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "DJ"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "DJ.How to DJ Properly",
+          "alias": "DJ.How to DJ Properly",
+          "position": {
+            "start": {
+              "line": 36,
+              "column": 7,
+              "offset": 662
+            },
+            "end": {
+              "line": 36,
+              "column": 32,
+              "offset": 687
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "DJ.How to DJ Properly"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "System Design",
+          "alias": "System Design",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 3,
+              "offset": 691
+            },
+            "end": {
+              "line": 38,
+              "column": 20,
+              "offset": 708
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "System Design"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "System Design.Database Engineering Course",
+          "alias": "System Design.Database Engineering Course",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 7,
+              "offset": 715
+            },
+            "end": {
+              "line": 39,
+              "column": 52,
+              "offset": 760
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "System Design.Database Engineering Course"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "System Desing.Node JS Internals",
+          "alias": "System Desing.Node JS Internals",
+          "position": {
+            "start": {
+              "line": 40,
+              "column": 7,
+              "offset": 767
+            },
+            "end": {
+              "line": 40,
+              "column": 42,
+              "offset": 802
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "System Desing.Node JS Internals"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "System Design.Node JS Paid Course",
+          "alias": "System Design.Node JS Paid Course",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 7,
+              "offset": 809
+            },
+            "end": {
+              "line": 41,
+              "column": 44,
+              "offset": 846
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "System Design.Node JS Paid Course"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "System Design.Book",
+          "alias": "System Design.Book",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 7,
+              "offset": 853
+            },
+            "end": {
+              "line": 42,
+              "column": 29,
+              "offset": 875
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "System Design.Book"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Security",
+          "alias": "Security",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 3,
+              "offset": 879
+            },
+            "end": {
+              "line": 44,
+              "column": 15,
+              "offset": 891
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Security"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Infra",
+          "alias": "Infra",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 3,
+              "offset": 895
+            },
+            "end": {
+              "line": 46,
+              "column": 12,
+              "offset": 904
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Infra"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Web Development",
+          "alias": "Web Development",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 3,
+              "offset": 971
+            },
+            "end": {
+              "line": 52,
+              "column": 22,
+              "offset": 990
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Web Development"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Next JS.Tutorial",
+          "alias": "Next JS.Tutorial",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 7,
+              "offset": 997
+            },
+            "end": {
+              "line": 53,
+              "column": 27,
+              "offset": 1017
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Next JS.Tutorial"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Javascript Info",
+          "alias": "Javascript Info",
+          "position": {
+            "start": {
+              "line": 62,
+              "column": 7,
+              "offset": 2044
+            },
+            "end": {
+              "line": 62,
+              "column": 26,
+              "offset": 2063
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Javascript Info"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "React Tutorial",
+          "alias": "React Tutorial",
+          "position": {
+            "start": {
+              "line": 63,
+              "column": 7,
+              "offset": 2070
+            },
+            "end": {
+              "line": 63,
+              "column": 25,
+              "offset": 2088
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "React Tutorial"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Next JS.Docs",
+          "alias": "Next JS.Docs",
+          "position": {
+            "start": {
+              "line": 64,
+              "column": 7,
+              "offset": 2095
+            },
+            "end": {
+              "line": 64,
+              "column": 23,
+              "offset": 2111
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Next JS.Docs"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "Scrimba Front End Path",
+          "alias": "Scrimba Front End Path",
+          "position": {
+            "start": {
+              "line": 65,
+              "column": 7,
+              "offset": 2184
+            },
+            "end": {
+              "line": 65,
+              "column": 33,
+              "offset": 2210
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Scrimba Front End Path"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Siddharth.Goals",
+            "id": "lgx7yt4m652gdnjzysqljk5",
+            "vaultName": "Dendron"
+          },
+          "value": "CSS course",
+          "alias": "CSS course",
+          "position": {
+            "start": {
+              "line": 66,
+              "column": 7,
+              "offset": 2217
+            },
+            "end": {
+              "line": 66,
+              "column": 21,
+              "offset": 2231
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "CSS course"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "bd3mupfj68nrgnjejss1qqh",
+      "data": {}
+    },
+    "o6psb2x2gkkpqfl9py3zfh0": {
+      "id": "o6psb2x2gkkpqfl9py3zfh0",
+      "title": "DOs",
+      "desc": "",
+      "updated": 1745535421054,
+      "created": 1743762093099,
+      "custom": {},
+      "fname": "Siddharth.DOs",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "0163f0229dea9dbce11aede6ec772cf4",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "bd3mupfj68nrgnjejss1qqh",
+      "data": {}
+    },
+    "l1lcmphk4ubvu1aiqhcs7ib": {
+      "fname": "SP",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038325,
+      "created": 1746716038325,
+      "id": "l1lcmphk4ubvu1aiqhcs7ib",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "fmwayy8i3aoqwxtvmy0dxyp",
+        "954ui8ssdzn50me68v9qv54",
+        "p4fqn10jzymcwo4urykzqmy",
+        "i1dnk521ewgzff6gjuqvegg",
+        "870aioz2dpxk8kzwnvn4nli"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "SP"
+    },
+    "870aioz2dpxk8kzwnvn4nli": {
+      "fname": "SP.USP",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038329,
+      "created": 1746716038329,
+      "id": "870aioz2dpxk8kzwnvn4nli",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "vrr0ve9gtj2tbwqq627o4ki"
+      ],
+      "parent": "l1lcmphk4ubvu1aiqhcs7ib",
+      "data": {},
+      "title": "USP"
+    },
+    "vrr0ve9gtj2tbwqq627o4ki": {
+      "id": "vrr0ve9gtj2tbwqq627o4ki",
+      "title": "Vendor List Additions",
+      "desc": "",
+      "updated": 1741364010185,
+      "created": 1741128408156,
+      "custom": {},
+      "fname": "SP.USP.Vendor List Additions",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "9e1b5eb70e748bf665843441be38f90b",
+      "links": [],
+      "anchors": {
+        "add-a-new-vendor": {
+          "type": "header",
+          "text": "Add a new vendor",
+          "value": "add-a-new-vendor",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "add-a-new-opt-outdns-or-sensitive-data-iab-or-custom-category": {
+          "type": "header",
+          "text": "Add a new Opt-Out(DNS or Sensitive Data) IAB or Custom category",
+          "value": "add-a-new-opt-outdns-or-sensitive-data-iab-or-custom-category",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "add-a-new-opt-in-iab-or-custom-category": {
+          "type": "header",
+          "text": "Add a new Opt-In IAB or Custom Category",
+          "value": "add-a-new-opt-in-iab-or-custom-category",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "reconsent-flow": {
+          "type": "header",
+          "text": "Reconsent flow",
+          "value": "reconsent-flow",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "date-created-holistic-or--category": {
+          "type": "header",
+          "text": "Date Created holistic or / Category",
+          "value": "date-created-holistic-or--category",
+          "line": 24,
+          "column": 0,
+          "depth": 4
+        },
+        "shown-categories": {
+          "type": "header",
+          "text": "Shown Categories",
+          "value": "shown-categories",
+          "line": 27,
+          "column": 0,
+          "depth": 4
+        },
+        "rejected-categories": {
+          "type": "header",
+          "text": "Rejected Categories",
+          "value": "rejected-categories",
+          "line": 30,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "870aioz2dpxk8kzwnvn4nli",
+      "data": {}
+    },
+    "i1dnk521ewgzff6gjuqvegg": {
+      "id": "i1dnk521ewgzff6gjuqvegg",
+      "title": "Unified UUID",
+      "desc": "",
+      "updated": 1740081918332,
+      "created": 1740070735125,
+      "custom": {},
+      "fname": "SP.Unified UUID",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "e2b54bea8b26360c423e87f9a969082b",
+      "links": [],
+      "anchors": {
+        "unifying-uuids-across-legislations-and-preferences": {
+          "type": "header",
+          "text": "Unifying UUIDs across legislations and preferences",
+          "value": "unifying-uuids-across-legislations-and-preferences",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "client-does-gdpr--preferences": {
+          "type": "header",
+          "text": "Client does GDPR + Preferences",
+          "value": "client-does-gdpr--preferences",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "use-cases-to-consider": {
+          "type": "header",
+          "text": "Use cases to consider:",
+          "value": "use-cases-to-consider",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "auth-consent": {
+          "type": "header",
+          "text": "Auth consent",
+          "value": "auth-consent",
+          "line": 13,
+          "column": 0,
+          "depth": 4
+        },
+        "non-auth-consent": {
+          "type": "header",
+          "text": "Non-auth consent",
+          "value": "non-auth-consent",
+          "line": 15,
+          "column": 0,
+          "depth": 4
+        },
+        "message-chaining": {
+          "type": "header",
+          "text": "Message chaining",
+          "value": "message-chaining",
+          "line": 17,
+          "column": 0,
+          "depth": 4
+        },
+        "expiration-of-consent": {
+          "type": "header",
+          "text": "Expiration of consent",
+          "value": "expiration-of-consent",
+          "line": 19,
+          "column": 0,
+          "depth": 4
+        },
+        "auth-mapping-and-updating-that-after-consent-expiration": {
+          "type": "header",
+          "text": "Auth mapping and updating that after consent expiration",
+          "value": "auth-mapping-and-updating-that-after-consent-expiration",
+          "line": 21,
+          "column": 0,
+          "depth": 4
+        },
+        "new-client": {
+          "type": "header",
+          "text": "New Client",
+          "value": "new-client",
+          "line": 23,
+          "column": 0,
+          "depth": 4
+        },
+        "existing-client-with-preferences-add-on": {
+          "type": "header",
+          "text": "Existing client with preferences add-on",
+          "value": "existing-client-with-preferences-add-on",
+          "line": 25,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "l1lcmphk4ubvu1aiqhcs7ib",
+      "data": {}
+    },
+    "p4fqn10jzymcwo4urykzqmy": {
+      "id": "p4fqn10jzymcwo4urykzqmy",
+      "title": "Preferences",
+      "desc": "",
+      "updated": 1744998240825,
+      "created": 1741275361632,
+      "custom": {},
+      "fname": "SP.Preferences",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ca2873486a1c5afff832eb8f3e00c469",
+      "links": [],
+      "anchors": {
+        "to-dos": {
+          "type": "header",
+          "text": "To-Dos",
+          "value": "to-dos",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "klfp5chhm7wv5lap5mgxb1n",
+        "p59sm05twfmcx01ukwujhik",
+        "0u18hsdrrjzqnaoron5m15j"
+      ],
+      "parent": "l1lcmphk4ubvu1aiqhcs7ib",
+      "data": {}
+    },
+    "0u18hsdrrjzqnaoron5m15j": {
+      "id": "0u18hsdrrjzqnaoron5m15j",
+      "title": "Legal Doc Publish Changes",
+      "desc": "",
+      "updated": 1741288795309,
+      "created": 1741287572228,
+      "custom": {},
+      "fname": "SP.Preferences.Legal Doc Publish Changes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "1a94179b57a53edebbed0c0d1d34bda5",
+      "links": [],
+      "anchors": {
+        "schema-changes": {
+          "type": "header",
+          "text": "Schema changes",
+          "value": "schema-changes",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "api-changes": {
+          "type": "header",
+          "text": "API Changes",
+          "value": "api-changes",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "p4fqn10jzymcwo4urykzqmy",
+      "data": {}
+    },
+    "p59sm05twfmcx01ukwujhik": {
+      "id": "p59sm05twfmcx01ukwujhik",
+      "title": "KV Targeting",
+      "desc": "",
+      "updated": 1741987652635,
+      "created": 1741964061000,
+      "custom": {},
+      "fname": "SP.Preferences.KV Targeting",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "adf870ce39900f52643dc6db6b0ea7c4",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "p4fqn10jzymcwo4urykzqmy",
+      "data": {}
+    },
+    "klfp5chhm7wv5lap5mgxb1n": {
+      "id": "klfp5chhm7wv5lap5mgxb1n",
+      "title": "Auth Consent",
+      "desc": "",
+      "updated": 1741045746195,
+      "created": 1741021896647,
+      "custom": {},
+      "fname": "SP.Preferences.Auth Consent",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "ddba1014bbd9e988eb96d383130e0639",
+      "links": [],
+      "anchors": {
+        "implementing-auth-consent-for-preferences": {
+          "type": "header",
+          "text": "Implementing auth consent for preferences",
+          "value": "implementing-auth-consent-for-preferences",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "get-consent-status-flow": {
+          "type": "header",
+          "text": "/GET Consent status flow",
+          "value": "get-consent-status-flow",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "post-preference-flow": {
+          "type": "header",
+          "text": "/POST preference flow",
+          "value": "post-preference-flow",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "open-questions": {
+          "type": "header",
+          "text": "Open Questions",
+          "value": "open-questions",
+          "line": 39,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "p4fqn10jzymcwo4urykzqmy",
+      "data": {}
+    },
+    "954ui8ssdzn50me68v9qv54": {
+      "id": "954ui8ssdzn50me68v9qv54",
+      "title": "Message Renderer",
+      "desc": "",
+      "updated": 1746645835862,
+      "created": 1745503917488,
+      "custom": {},
+      "fname": "SP.Message Renderer",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "02664e391a0416af7db6a9bc0b7a06bf",
+      "links": [],
+      "anchors": {
+        "design": {
+          "type": "header",
+          "text": "Design",
+          "value": "design",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "spmessage-rendererstep-1--15-weeks": {
+          "type": "header",
+          "text": "SP.Message Renderer.Step 1- 1.5 weeks",
+          "value": "spmessage-rendererstep-1--15-weeks",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "step-2---1-week": {
+          "type": "header",
+          "text": "Step 2 - 1 week",
+          "value": "step-2---1-week",
+          "line": 15,
+          "column": 0,
+          "depth": 3
+        },
+        "step-3---2-weeks": {
+          "type": "header",
+          "text": "Step 3 - 2 weeks",
+          "value": "step-3---2-weeks",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "step-4----weeks": {
+          "type": "header",
+          "text": "Step 4 - ? weeks",
+          "value": "step-4----weeks",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "setting-expectations": {
+          "type": "header",
+          "text": "Setting expectations",
+          "value": "setting-expectations",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        },
+        "milestone-planning": {
+          "type": "header",
+          "text": "Milestone planning",
+          "value": "milestone-planning",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        },
+        "maintenance": {
+          "type": "header",
+          "text": "Maintenance",
+          "value": "maintenance",
+          "line": 46,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "j2o2nxc1xp89rdhyg323cdk"
+      ],
+      "parent": "l1lcmphk4ubvu1aiqhcs7ib",
+      "data": {}
+    },
+    "j2o2nxc1xp89rdhyg323cdk": {
+      "id": "j2o2nxc1xp89rdhyg323cdk",
+      "title": "Step 1",
+      "desc": "",
+      "updated": 1746646210806,
+      "created": 1746045460266,
+      "custom": {},
+      "fname": "SP.Message Renderer.Step 1",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "d15e1a34a10c44a5a60fac2f86845bff",
+      "links": [
+        {
+          "from": {
+            "fname": "task.journal.2025.05.07",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 60,
+              "offset": 483
+            },
+            "end": {
+              "line": 14,
+              "column": 90,
+              "offset": 513
+            },
+            "indent": []
+          },
+          "value": "SP.Message Renderer.Step 1",
+          "alias": "SP.Message Renderer.Step 1"
+        }
+      ],
+      "anchors": {
+        "aws-updates": {
+          "type": "header",
+          "text": "AWS Updates",
+          "value": "aws-updates",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "other-updates": {
+          "type": "header",
+          "text": "Other Updates",
+          "value": "other-updates",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "954ui8ssdzn50me68v9qv54",
+      "data": {}
+    },
+    "fmwayy8i3aoqwxtvmy0dxyp": {
+      "id": "fmwayy8i3aoqwxtvmy0dxyp",
+      "title": "Contributions",
+      "desc": "",
+      "updated": 1744375833203,
+      "created": 1741103994422,
+      "custom": {},
+      "fname": "SP.Contributions",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "f8ea121f27c3f0ce7ff3b6b716a19d65",
+      "links": [],
+      "anchors": {
+        "professional-contributions-and-value-summary": {
+          "type": "header",
+          "text": "Professional Contributions and Value Summary",
+          "value": "professional-contributions-and-value-summary",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "leadership--critical-role": {
+          "type": "header",
+          "text": "Leadership & Critical Role",
+          "value": "leadership--critical-role",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "technical-contributions--innovations": {
+          "type": "header",
+          "text": "Technical Contributions & Innovations",
+          "value": "technical-contributions--innovations",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "team-support--enablement": {
+          "type": "header",
+          "text": "Team Support & Enablement",
+          "value": "team-support--enablement",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        },
+        "exceptional-commitment": {
+          "type": "header",
+          "text": "Exceptional Commitment",
+          "value": "exceptional-commitment",
+          "line": 51,
+          "column": 0,
+          "depth": 2
+        },
+        "value-added-to-business": {
+          "type": "header",
+          "text": "Value Added to Business",
+          "value": "value-added-to-business",
+          "line": 59,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "l1lcmphk4ubvu1aiqhcs7ib",
+      "data": {}
+    },
+    "wz9z8az9m9aq5132p7d10co": {
+      "fname": "Roshani",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038324,
+      "created": 1746716038324,
+      "id": "wz9z8az9m9aq5132p7d10co",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "fqdu176ctl8psphu27o8oyr"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Roshani"
+    },
+    "fqdu176ctl8psphu27o8oyr": {
+      "id": "fqdu176ctl8psphu27o8oyr",
+      "title": "Workout Regime",
+      "desc": "",
+      "updated": 1744801871750,
+      "created": 1744801315325,
+      "custom": {},
+      "fname": "Roshani.Workout Regime",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "75fb31f0e5f7e2f25aaf9a6e0fe2e417",
+      "links": [],
+      "anchors": {
+        "workout-i": {
+          "type": "header",
+          "text": "Workout I",
+          "value": "workout-i",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "lying-leg-curls": {
+          "type": "header",
+          "text": "Lying Leg Curls",
+          "value": "lying-leg-curls",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "leg-press": {
+          "type": "header",
+          "text": "Leg Press",
+          "value": "leg-press",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "seated-leg-curls": {
+          "type": "header",
+          "text": "Seated Leg Curls",
+          "value": "seated-leg-curls",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wz9z8az9m9aq5132p7d10co",
+      "data": {}
+    },
+    "69h59jt3vyfdg55g7gqc95d": {
+      "fname": "Next JS",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038323,
+      "created": 1746716038323,
+      "id": "69h59jt3vyfdg55g7gqc95d",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "yh9ux0ubhbjs0g53bhmwx4i",
+        "rikfe3qd9gvj5o6a6l92cx8"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Next JS"
+    },
+    "rikfe3qd9gvj5o6a6l92cx8": {
+      "id": "rikfe3qd9gvj5o6a6l92cx8",
+      "title": "Tutorial",
+      "desc": "",
+      "updated": 1744318952892,
+      "created": 1742910002085,
+      "custom": {},
+      "fname": "Next JS.Tutorial",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "b3486a58313ea09e9e596f782438c122",
+      "links": [
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 7,
+              "offset": 997
+            },
+            "end": {
+              "line": 53,
+              "column": 27,
+              "offset": 1017
+            },
+            "indent": []
+          },
+          "value": "Next JS.Tutorial",
+          "alias": "Next JS.Tutorial"
+        }
+      ],
+      "anchors": {
+        "intro": {
+          "type": "header",
+          "text": "Intro",
+          "value": "intro",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "trees-in-react": {
+          "type": "header",
+          "text": "Trees in React",
+          "value": "trees-in-react",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "advantages-of-react": {
+          "type": "header",
+          "text": "Advantages of React",
+          "value": "advantages-of-react",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        },
+        "working-with-jsx": {
+          "type": "header",
+          "text": "Working with JSX",
+          "value": "working-with-jsx",
+          "line": 60,
+          "column": 0,
+          "depth": 3
+        },
+        "passing-data-with-props": {
+          "type": "header",
+          "text": "Passing data with props",
+          "value": "passing-data-with-props",
+          "line": 74,
+          "column": 0,
+          "depth": 3
+        },
+        "managing-state-with-hooks": {
+          "type": "header",
+          "text": "Managing state with hooks",
+          "value": "managing-state-with-hooks",
+          "line": 84,
+          "column": 0,
+          "depth": 3
+        },
+        "responding-to-events": {
+          "type": "header",
+          "text": "Responding to events",
+          "value": "responding-to-events",
+          "line": 95,
+          "column": 0,
+          "depth": 3
+        },
+        "server-and-client-components": {
+          "type": "header",
+          "text": "Server and Client Components",
+          "value": "server-and-client-components",
+          "line": 115,
+          "column": 0,
+          "depth": 3
+        },
+        "optimizing-fonts-and-images": {
+          "type": "header",
+          "text": "Optimizing fonts and images",
+          "value": "optimizing-fonts-and-images",
+          "line": 123,
+          "column": 0,
+          "depth": 3
+        },
+        "using-layouts": {
+          "type": "header",
+          "text": "Using Layouts",
+          "value": "using-layouts",
+          "line": 141,
+          "column": 0,
+          "depth": 3
+        },
+        "routing-and-code-splitting": {
+          "type": "header",
+          "text": "Routing and code-splitting",
+          "value": "routing-and-code-splitting",
+          "line": 153,
+          "column": 0,
+          "depth": 3
+        },
+        "fetching-data": {
+          "type": "header",
+          "text": "Fetching Data",
+          "value": "fetching-data",
+          "line": 170,
+          "column": 0,
+          "depth": 3
+        },
+        "project-structure-for-a-next-js-app": {
+          "type": "header",
+          "text": "Project structure for a Next JS app",
+          "value": "project-structure-for-a-next-js-app",
+          "line": 194,
+          "column": 0,
+          "depth": 3
+        },
+        "working-with-images-in-next-js": {
+          "type": "header",
+          "text": "Working with images in Next JS",
+          "value": "working-with-images-in-next-js",
+          "line": 206,
+          "column": 0,
+          "depth": 3
+        },
+        "static-rendering-vs-dynamic-rendering": {
+          "type": "header",
+          "text": "Static Rendering vs Dynamic Rendering",
+          "value": "static-rendering-vs-dynamic-rendering",
+          "line": 233,
+          "column": 0,
+          "depth": 3
+        },
+        "streaming-and-suspense": {
+          "type": "header",
+          "text": "Streaming and Suspense",
+          "value": "streaming-and-suspense",
+          "line": 249,
+          "column": 0,
+          "depth": 3
+        },
+        "search-and-pagination": {
+          "type": "header",
+          "text": "Search and Pagination",
+          "value": "search-and-pagination",
+          "line": 257,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "69h59jt3vyfdg55g7gqc95d",
+      "data": {}
+    },
+    "yh9ux0ubhbjs0g53bhmwx4i": {
+      "id": "yh9ux0ubhbjs0g53bhmwx4i",
+      "title": "Docs",
+      "desc": "",
+      "updated": 1743510870738,
+      "created": 1743510828800,
+      "url": "https://nextjs.org/docs/app/building-your-application/routing",
+      "custom": {
+        "url": "https://nextjs.org/docs/app/building-your-application/routing"
+      },
+      "fname": "Next JS.Docs",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "20ad680981245b72706ee54b96ff6441",
+      "links": [
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 64,
+              "column": 7,
+              "offset": 2095
+            },
+            "end": {
+              "line": 64,
+              "column": 23,
+              "offset": 2111
+            },
+            "indent": []
+          },
+          "value": "Next JS.Docs",
+          "alias": "Next JS.Docs"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "69h59jt3vyfdg55g7gqc95d",
+      "data": {}
+    },
+    "gdjyzsq56qgyj5t5uktrsgu": {
+      "fname": "Music Production",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038323,
+      "created": 1746716038323,
+      "id": "gdjyzsq56qgyj5t5uktrsgu",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 3,
+              "offset": 553
+            },
+            "end": {
+              "line": 31,
+              "column": 23,
+              "offset": 573
+            },
+            "indent": []
+          },
+          "value": "Music Production",
+          "alias": "Music Production"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "hhgjyt2o7ve96enic6mbr8f"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Music Production"
+    },
+    "hhgjyt2o7ve96enic6mbr8f": {
+      "id": "hhgjyt2o7ve96enic6mbr8f",
+      "title": "Christopher Ledger",
+      "desc": "",
+      "updated": 1741834290589,
+      "created": 1741833457174,
+      "custom": {},
+      "fname": "Music Production.Christopher Ledger",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "4270a104a5066d8073a8b796f5ab74ee",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Music Production.Christopher Ledger",
+            "id": "hhgjyt2o7ve96enic6mbr8f",
+            "vaultName": "Dendron"
+          },
+          "value": "Music Production.Christopher Ledger.How to Sample Classic Breaks",
+          "alias": "Music Production.Christopher Ledger.How to Sample Classic Breaks",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 7,
+              "offset": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 75,
+              "offset": 92
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Music Production.Christopher Ledger.How to Sample Classic Breaks"
+          }
+        },
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 32,
+              "column": 7,
+              "offset": 580
+            },
+            "end": {
+              "line": 32,
+              "column": 46,
+              "offset": 619
+            },
+            "indent": []
+          },
+          "value": "Music Production.Christopher Ledger",
+          "alias": "Music Production.Christopher Ledger"
+        }
+      ],
+      "anchors": {
+        "video-list-": {
+          "type": "header",
+          "text": "Video List :",
+          "value": "video-list-",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "pd9w04xn7ievn4z7tmi7rtj"
+      ],
+      "parent": "gdjyzsq56qgyj5t5uktrsgu",
+      "data": {}
+    },
+    "pd9w04xn7ievn4z7tmi7rtj": {
+      "id": "pd9w04xn7ievn4z7tmi7rtj",
+      "title": "How to Sample Classic Breaks",
+      "desc": "",
+      "updated": 1741834332116,
+      "created": 1741834272119,
+      "url": "https://youtu.be/dplSay5nG_8?si=28b44yOsnurRlgrh",
+      "custom": {
+        "url": "https://youtu.be/dplSay5nG_8?si=28b44yOsnurRlgrh"
+      },
+      "fname": "Music Production.Christopher Ledger.How to Sample Classic Breaks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "0d705f6546a3698d5fafe6b843c347d0",
+      "links": [
+        {
+          "from": {
+            "fname": "Music Production.Christopher Ledger",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 7,
+              "offset": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 75,
+              "offset": 92
+            },
+            "indent": []
+          },
+          "value": "Music Production.Christopher Ledger.How to Sample Classic Breaks",
+          "alias": "Music Production.Christopher Ledger.How to Sample Classic Breaks"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "hhgjyt2o7ve96enic6mbr8f",
+      "data": {}
+    },
+    "3x4fmd16chquma6kovvfatj": {
+      "fname": "Math",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1746716038323,
+      "created": 1746716038323,
+      "id": "3x4fmd16chquma6kovvfatj",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 3,
+              "offset": 164
+            },
+            "end": {
+              "line": 7,
+              "column": 11,
+              "offset": 172
+            },
+            "indent": []
+          },
+          "value": "Math",
+          "alias": "Math"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "bf8k3h9dttwnow9p3i48oc1"
+      ],
+      "parent": "root",
+      "data": {},
+      "title": "Math"
+    },
+    "bf8k3h9dttwnow9p3i48oc1": {
+      "id": "bf8k3h9dttwnow9p3i48oc1",
+      "title": "Pre-Calculus",
+      "desc": "",
+      "updated": 1742173356170,
+      "created": 1741638259687,
+      "url": "https://www.coursera.org/specializations/precalculus-data-modelling?gad_source=1&gclid=CjwKCAiA5pq-BhBuEiwAvkzVZeeWj7F-RiIeiCFjMaZOsk3a4QmhQ4Y0Eq5uCjsyVKdI7UH0u4tTnxoC8jMQAvD_BwE#outcomes",
+      "custom": {
+        "url": "https://www.coursera.org/specializations/precalculus-data-modelling?gad_source=1&gclid=CjwKCAiA5pq-BhBuEiwAvkzVZeeWj7F-RiIeiCFjMaZOsk3a4QmhQ4Y0Eq5uCjsyVKdI7UH0u4tTnxoC8jMQAvD_BwE#outcomes"
+      },
+      "fname": "Math.Pre-Calculus",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "6e01612adb16adf2db78ec8e2543fc98",
+      "links": [
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 7,
+              "offset": 179
+            },
+            "end": {
+              "line": 8,
+              "column": 28,
+              "offset": 200
+            },
+            "indent": []
+          },
+          "value": "Math.Pre-Calculus",
+          "alias": "Math.Pre-Calculus"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "3x4fmd16chquma6kovvfatj",
+      "data": {}
+    },
+    "c1bs7wsjfbhb0zipaywqv1": {
+      "id": "c1bs7wsjfbhb0zipaywqv1",
+      "title": "Tutorial",
+      "desc": "",
+      "updated": 1658931733078,
+      "created": 1654223767390,
+      "currentStep": 0,
+      "totalSteps": 0,
+      "custom": {
+        "currentStep": 0,
+        "totalSteps": 0
+      },
+      "fname": "tutorial",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "35465334039ba0d581fd2b0984e19c5a",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tutorial",
+            "id": "c1bs7wsjfbhb0zipaywqv1",
+            "vaultName": "Dendron"
+          },
+          "value": "tutorial.one",
+          "alias": "tutorial.one",
+          "position": {
+            "start": {
+              "line": 61,
+              "column": 9,
+              "offset": 2424
+            },
+            "end": {
+              "line": 61,
+              "column": 25,
+              "offset": 2440
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tutorial.one"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tutorial",
+            "id": "c1bs7wsjfbhb0zipaywqv1",
+            "vaultName": "Dendron"
+          },
+          "value": "tutorial",
+          "alias": "tutorial",
+          "position": {
+            "start": {
+              "line": 65,
+              "column": 134,
+              "offset": 2762
+            },
+            "end": {
+              "line": 65,
+              "column": 146,
+              "offset": 2774
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tutorial"
+          }
+        }
+      ],
+      "anchors": {
+        "create-a-note": {
+          "type": "header",
+          "text": "Create a Note",
+          "value": "create-a-note",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "find-a-note": {
+          "type": "header",
+          "text": "Find a Note",
+          "value": "find-a-note",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "organize-your-notes": {
+          "type": "header",
+          "text": "Organize your Notes",
+          "value": "organize-your-notes",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "create-a-link": {
+          "type": "header",
+          "text": "Create a link",
+          "value": "create-a-link",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        },
+        "navigate-a-link": {
+          "type": "header",
+          "text": "Navigate a link",
+          "value": "navigate-a-link",
+          "line": 59,
+          "column": 0,
+          "depth": 2
+        },
+        "refactor-a-note": {
+          "type": "header",
+          "text": "Refactor a Note",
+          "value": "refactor-a-note",
+          "line": 67,
+          "column": 0,
+          "depth": 2
+        },
+        "conclusion": {
+          "type": "header",
+          "text": "Conclusion",
+          "value": "conclusion",
+          "line": 76,
+          "column": 0,
+          "depth": 2
+        },
+        "next-steps": {
+          "type": "header",
+          "text": "Next Steps",
+          "value": "next-steps",
+          "line": 82,
+          "column": 0,
+          "depth": 2
+        },
+        "community": {
+          "type": "header",
+          "text": "Community",
+          "value": "community",
+          "line": 104,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "oz8e6a05bjgd3cbtru3hqe2": {
+      "id": "oz8e6a05bjgd3cbtru3hqe2",
+      "title": "ML",
+      "desc": "",
+      "updated": 1740002305535,
+      "created": 1740001774601,
+      "custom": {},
+      "fname": "ML",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "14b38506a82ec34d5dc0d8aa28058209",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ML",
+            "id": "oz8e6a05bjgd3cbtru3hqe2",
+            "vaultName": "Dendron"
+          },
+          "value": "ML.AK",
+          "alias": "ML.AK",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 24,
+              "offset": 100
+            },
+            "end": {
+              "line": 6,
+              "column": 33,
+              "offset": 109
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML.AK"
+          }
+        },
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 3,
+              "offset": 443
+            },
+            "end": {
+              "line": 24,
+              "column": 9,
+              "offset": 449
+            },
+            "indent": []
+          },
+          "value": "ML",
+          "alias": "ML"
+        },
+        {
+          "from": {
+            "fname": "Siddharth.TO-DOs",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 5,
+              "offset": 290
+            },
+            "end": {
+              "line": 12,
+              "column": 11,
+              "offset": 296
+            },
+            "indent": []
+          },
+          "value": "ML",
+          "alias": "ML"
+        }
+      ],
+      "anchors": {
+        "coursera": {
+          "type": "header",
+          "text": "Coursera",
+          "value": "coursera",
+          "line": 10,
+          "column": 0,
+          "depth": 1
+        },
+        "andrej-karpathy-yt---mlak": {
+          "type": "header",
+          "text": "Andrej Karpathy YT - ML.AK",
+          "value": "andrej-karpathy-yt---mlak",
+          "line": 12,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "dsryuppzxk9dtugblsu7a23",
+        "kndcs9cayrizdzefp1veykh"
+      ],
+      "parent": "root",
+      "data": {}
+    },
+    "kndcs9cayrizdzefp1veykh": {
+      "id": "kndcs9cayrizdzefp1veykh",
+      "title": "AK",
+      "desc": "",
+      "updated": 1740002292069,
+      "created": 1740001800550,
+      "custom": {},
+      "fname": "ML.AK",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "06006adca26758fb6725cbf19edf05fd",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ML.AK",
+            "id": "kndcs9cayrizdzefp1veykh",
+            "vaultName": "Dendron"
+          },
+          "value": "ML.AK.Intro to LLMs",
+          "alias": "ML.AK.Intro to LLMs",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 42,
+              "offset": 115
+            },
+            "end": {
+              "line": 3,
+              "column": 65,
+              "offset": 138
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML.AK.Intro to LLMs"
+          }
+        },
+        {
+          "from": {
+            "fname": "ML",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 24,
+              "offset": 100
+            },
+            "end": {
+              "line": 6,
+              "column": 33,
+              "offset": 109
+            },
+            "indent": []
+          },
+          "value": "ML.AK",
+          "alias": "ML.AK"
+        },
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 7,
+              "offset": 482
+            },
+            "end": {
+              "line": 26,
+              "column": 16,
+              "offset": 491
+            },
+            "indent": []
+          },
+          "value": "ML.AK",
+          "alias": "ML.AK"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "qufzkdfqezix7zzqwzdxja2",
+        "obuonjuhcj0tlex3qqgzzyg"
+      ],
+      "parent": "oz8e6a05bjgd3cbtru3hqe2",
+      "data": {}
+    },
+    "obuonjuhcj0tlex3qqgzzyg": {
+      "id": "obuonjuhcj0tlex3qqgzzyg",
+      "title": "Intro to LLMs",
+      "desc": "",
+      "updated": 1740001542785,
+      "created": 1739407566715,
+      "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g&ab_channel=AndrejKarpathy",
+      "custom": {
+        "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g&ab_channel=AndrejKarpathy"
+      },
+      "fname": "ML.AK.Intro to LLMs",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "37ab0a87b633c1c6b234c87f7d647983",
+      "links": [
+        {
+          "from": {
+            "fname": "ML.AK",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 42,
+              "offset": 115
+            },
+            "end": {
+              "line": 3,
+              "column": 65,
+              "offset": 138
+            },
+            "indent": []
+          },
+          "value": "ML.AK.Intro to LLMs",
+          "alias": "ML.AK.Intro to LLMs"
+        }
+      ],
+      "anchors": {
+        "intro-to-llms": {
+          "type": "header",
+          "text": "Intro to LLMS",
+          "value": "intro-to-llms",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "there-are-three-main-parts-of-building-a-model---training-inference-and-fine-tuning": {
+          "type": "header",
+          "text": "There are three main parts of building a model - training, inference and fine-tuning.",
+          "value": "there-are-three-main-parts-of-building-a-model---training-inference-and-fine-tuning",
+          "line": 41,
+          "column": 0,
+          "depth": 3
+        },
+        "how-does-it-work": {
+          "type": "header",
+          "text": "How does it work?",
+          "value": "how-does-it-work",
+          "line": 49,
+          "column": 0,
+          "depth": 3
+        },
+        "fine-tuning": {
+          "type": "header",
+          "text": "Fine-Tuning",
+          "value": "fine-tuning",
+          "line": 55,
+          "column": 0,
+          "depth": 3
+        },
+        "scaling-laws": {
+          "type": "header",
+          "text": "Scaling Laws",
+          "value": "scaling-laws",
+          "line": 65,
+          "column": 0,
+          "depth": 3
+        },
+        "tool-use": {
+          "type": "header",
+          "text": "Tool use",
+          "value": "tool-use",
+          "line": 73,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "kndcs9cayrizdzefp1veykh",
+      "data": {}
+    },
+    "qufzkdfqezix7zzqwzdxja2": {
+      "id": "qufzkdfqezix7zzqwzdxja2",
+      "title": "Deep dive into Chat GPT",
+      "desc": "",
+      "updated": 1740783689199,
+      "created": 1740002114964,
+      "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI&t=1s&ab_channel=AndrejKarpathy",
+      "custom": {
+        "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI&t=1s&ab_channel=AndrejKarpathy"
+      },
+      "fname": "ML.AK.Deep dive into Chat GPT",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "0842f0671b6561f150f4676eb78888d1",
+      "links": [
+        {
+          "from": {
+            "fname": "ML.3Blue1Brown",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 2
+            },
+            "end": {
+              "line": 3,
+              "column": 34,
+              "offset": 35
+            },
+            "indent": []
+          },
+          "value": "ML.AK.Deep dive into Chat GPT",
+          "alias": "ML.AK.Deep dive into Chat GPT"
+        }
+      ],
+      "anchors": {
+        "deep-dive-into-llms-like-chat-gpt": {
+          "type": "header",
+          "text": "Deep dive into LLMS like Chat GPT",
+          "value": "deep-dive-into-llms-like-chat-gpt",
+          "line": 9,
+          "column": 0,
+          "depth": 1
+        },
+        "step-1---pretraining-download-and-pre-process-the-internet": {
+          "type": "header",
+          "text": "Step 1 - Pretraining: download and pre-process the internet",
+          "value": "step-1---pretraining-download-and-pre-process-the-internet",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "step-2---tokenization": {
+          "type": "header",
+          "text": "Step 2 - Tokenization",
+          "value": "step-2---tokenization",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "step-3---neural-network-training": {
+          "type": "header",
+          "text": "Step 3 - Neural Network Training",
+          "value": "step-3---neural-network-training",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "neural-network-internals": {
+          "type": "header",
+          "text": "Neural Network Internals",
+          "value": "neural-network-internals",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        },
+        "inference": {
+          "type": "header",
+          "text": "Inference",
+          "value": "inference",
+          "line": 37,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "kndcs9cayrizdzefp1veykh",
+      "data": {}
+    },
+    "dsryuppzxk9dtugblsu7a23": {
+      "id": "dsryuppzxk9dtugblsu7a23",
+      "title": "3Blue1Brown",
+      "desc": "",
+      "updated": 1741198170952,
+      "created": 1741198170952,
+      "custom": {},
+      "fname": "ML.3Blue1Brown",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "65fb5d45b0889e62452ce06a1d7f7cd5",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ML.3Blue1Brown",
+            "id": "dsryuppzxk9dtugblsu7a23",
+            "vaultName": "Dendron"
+          },
+          "value": "ML.AK.Deep dive into Chat GPT",
+          "alias": "ML.AK.Deep dive into Chat GPT",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 2
+            },
+            "end": {
+              "line": 3,
+              "column": 34,
+              "offset": 35
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ML.AK.Deep dive into Chat GPT"
+          }
+        },
+        {
+          "from": {
+            "fname": "Siddharth.Goals",
+            "vaultName": "Dendron"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 7,
+              "offset": 457
+            },
+            "end": {
+              "line": 25,
+              "column": 25,
+              "offset": 475
+            },
+            "indent": []
+          },
+          "value": "ML.3Blue1Brown",
+          "alias": "ML.3Blue1Brown"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "oz8e6a05bjgd3cbtru3hqe2",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "root",
+      "title": "root",
+      "desc": "",
+      "updated": 1746040151076,
+      "created": 1595961348801,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "Dendron"
+      },
+      "contentHash": "3338f3f44ea53fff248fd70b6ad85170",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "oz8e6a05bjgd3cbtru3hqe2",
+        "c1bs7wsjfbhb0zipaywqv1",
+        "3x4fmd16chquma6kovvfatj",
+        "gdjyzsq56qgyj5t5uktrsgu",
+        "69h59jt3vyfdg55g7gqc95d",
+        "wz9z8az9m9aq5132p7d10co",
+        "l1lcmphk4ubvu1aiqhcs7ib",
+        "bd3mupfj68nrgnjejss1qqh",
+        "1tlnuf6o2f3qawzg799ilzk",
+        "z5mfdumpr0cv3ceh60flq8n",
+        "filwymswyiwdojrwinvy5xd"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nSiddharth's root\n\nThis vault contains all the verticals to climb."
+    }
+  ],
+  "noteIndex": {
+    "id": "root",
+    "title": "root",
+    "desc": "",
+    "updated": 1746040151076,
+    "created": 1595961348801,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Dendron"
+    },
+    "contentHash": "3338f3f44ea53fff248fd70b6ad85170",
+    "links": [],
+    "anchors": {},
+    "children": [
+      "oz8e6a05bjgd3cbtru3hqe2",
+      "c1bs7wsjfbhb0zipaywqv1",
+      "3x4fmd16chquma6kovvfatj",
+      "gdjyzsq56qgyj5t5uktrsgu",
+      "69h59jt3vyfdg55g7gqc95d",
+      "wz9z8az9m9aq5132p7d10co",
+      "l1lcmphk4ubvu1aiqhcs7ib",
+      "bd3mupfj68nrgnjejss1qqh",
+      "1tlnuf6o2f3qawzg799ilzk",
+      "z5mfdumpr0cv3ceh60flq8n",
+      "filwymswyiwdojrwinvy5xd"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nSiddharth's root\n\nThis vault contains all the verticals to climb."
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "Dendron"
+    }
+  ]
+}

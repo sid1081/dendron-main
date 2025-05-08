@@ -1,0 +1,31 @@
+<h1 id="vendor-list-additions"><a aria-hidden="true" class="anchor-heading icon-link" href="#vendor-list-additions"></a>Vendor List Additions</h1>
+<p>Comment: All of the user consent updates happen through the <code>/consent-status</code> endpoint.</p>
+<h3 id="add-a-new-vendor"><a aria-hidden="true" class="anchor-heading icon-link" href="#add-a-new-vendor"></a>Add a new vendor</h3>
+<p>We pull in all of the categories that the user has consented to and populate all of the vendors for those categories.</p>
+<h3 id="add-a-new-opt-outdns-or-sensitive-data-iab-or-custom-category"><a aria-hidden="true" class="anchor-heading icon-link" href="#add-a-new-opt-outdns-or-sensitive-data-iab-or-custom-category"></a>Add a new Opt-Out(DNS or Sensitive Data) IAB or Custom category</h3>
+<ul>
+<li>We opt the user in to <em>any</em> of these categories.</li>
+</ul>
+<h3 id="add-a-new-opt-in-iab-or-custom-category"><a aria-hidden="true" class="anchor-heading icon-link" href="#add-a-new-opt-in-iab-or-custom-category"></a>Add a new Opt-In IAB or Custom Category</h3>
+<ul>
+<li>We don't need to update the user's consent</li>
+<li><em>Requires Reconsent</em>?</li>
+</ul>
+<h3 id="reconsent-flow"><a aria-hidden="true" class="anchor-heading icon-link" href="#reconsent-flow"></a>Reconsent flow</h3>
+<ul>
+<li>Returning user has a consent record with dateCreated - <code>2025-03-01</code></li>
+<li>Opt-Out IAB Category, Opt-In IAB Category, Opt-In Custom Category were added with additionsChangeDate - <code>2025-03-04</code></li>
+</ul>
+<h4 id="date-created-holistic-or--category"><a aria-hidden="true" class="anchor-heading icon-link" href="#date-created-holistic-or--category"></a>Date Created holistic or / Category</h4>
+<ul>
+<li>This is what we do for GDPR. <em>Not</em> an option because consent record needs to be updated if an opt-out category is added which will cause the reconsent flow to break after page refresh.</li>
+</ul>
+<h4 id="shown-categories"><a aria-hidden="true" class="anchor-heading icon-link" href="#shown-categories"></a>Shown Categories</h4>
+<ul>
+<li>Diff between shown opt-in categories and vendor list categories and pass down <code>reconsent</code> flag.</li>
+</ul>
+<h4 id="rejected-categories"><a aria-hidden="true" class="anchor-heading icon-link" href="#rejected-categories"></a>Rejected Categories</h4>
+<ul>
+<li>Store rejected categories </li>
+<li>Not backwards compatible</li>
+</ul>

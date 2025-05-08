@@ -1,0 +1,583 @@
+{
+  "roots": [
+    {
+      "key": "root",
+      "title": "root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "Dendron",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "oz8e6a05bjgd3cbtru3hqe2",
+          "title": "ML",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "dsryuppzxk9dtugblsu7a23",
+              "title": "3Blue1Brown",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "kndcs9cayrizdzefp1veykh",
+              "title": "AK",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "qufzkdfqezix7zzqwzdxja2",
+                  "title": "Deep dive into Chat GPT",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "obuonjuhcj0tlex3qqgzzyg",
+                  "title": "Intro to LLMs",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "3x4fmd16chquma6kovvfatj",
+          "title": "Math",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "bf8k3h9dttwnow9p3i48oc1",
+              "title": "Pre-Calculus",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "gdjyzsq56qgyj5t5uktrsgu",
+          "title": "Music Production",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "hhgjyt2o7ve96enic6mbr8f",
+              "title": "Christopher Ledger",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "pd9w04xn7ievn4z7tmi7rtj",
+                  "title": "How to Sample Classic Breaks",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "69h59jt3vyfdg55g7gqc95d",
+          "title": "Next JS",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "yh9ux0ubhbjs0g53bhmwx4i",
+              "title": "Docs",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "rikfe3qd9gvj5o6a6l92cx8",
+              "title": "Tutorial",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "wz9z8az9m9aq5132p7d10co",
+          "title": "Roshani",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "fqdu176ctl8psphu27o8oyr",
+              "title": "Workout Regime",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "l1lcmphk4ubvu1aiqhcs7ib",
+          "title": "SP",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "fmwayy8i3aoqwxtvmy0dxyp",
+              "title": "Contributions",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "954ui8ssdzn50me68v9qv54",
+              "title": "Message Renderer",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "j2o2nxc1xp89rdhyg323cdk",
+                  "title": "Step 1",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "p4fqn10jzymcwo4urykzqmy",
+              "title": "Preferences",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "klfp5chhm7wv5lap5mgxb1n",
+                  "title": "Auth Consent",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "p59sm05twfmcx01ukwujhik",
+                  "title": "KV Targeting",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "0u18hsdrrjzqnaoron5m15j",
+                  "title": "Legal Doc Publish Changes",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "870aioz2dpxk8kzwnvn4nli",
+              "title": "USP",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "vrr0ve9gtj2tbwqq627o4ki",
+                  "title": "Vendor List Additions",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "i1dnk521ewgzff6gjuqvegg",
+              "title": "Unified UUID",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "bd3mupfj68nrgnjejss1qqh",
+          "title": "Siddharth",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "84jmsnscaab6df7in8r59qf",
+              "title": "Architecture",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "kcua1jqpela383vrca43ku9",
+                  "title": "SOP",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "uyjd4kx68gx065wutfac0sz",
+              "title": "Content",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "k8rb1hbsxrmb9df7wxfzg9m",
+                  "title": "Video 1",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "fn85nepxzhmx7ql22m5vxd5",
+                  "title": "Video 2",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "50smwqnan2d83c0s0vla8ol",
+                  "title": "Video 3",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "o6psb2x2gkkpqfl9py3zfh0",
+              "title": "DOs",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "lgx7yt4m652gdnjzysqljk5",
+              "title": "Goals",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "9b69j5iu1lnlifi9bcxntut",
+              "title": "TO-DOs",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "haiy5t3m4tukr2bbv99eg88",
+              "title": "UPenn",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "qpqvf2pczk7eci56g1v2y69",
+                  "title": "SOP",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "1tlnuf6o2f3qawzg799ilzk",
+          "title": "TS",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "kkyhgif43cearrkfoy8lq88",
+              "title": "Setup",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "z5mfdumpr0cv3ceh60flq8n",
+          "title": "Task",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "kyx4w6mlxukzg6ch1dd0pn5",
+              "title": "2025",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "3p9ohrqv1juq7jdm4aado06",
+                  "title": "05",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "u31ofemlzbjl0q9yr81imh9",
+                      "title": "07",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Dendron",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "2x2n5a0dcjeqg5695qj0hwl",
+                          "title": "SP",
+                          "icon": "plusOutlined",
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "Dendron",
+                          "navExclude": false,
+                          "children": [
+                            {
+                              "key": "xgc3g6p23zra2vucy0e8gv8",
+                              "title": "Messager Rendere",
+                              "icon": null,
+                              "hasTitleNumberOutlined": false,
+                              "vaultName": "Dendron",
+                              "navExclude": false,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "yqhti7mddjq3ujamya39b39",
+              "title": "Journal",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "4m27csu12x911pxmkh1jx41",
+                  "title": "2025",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "Dendron",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "0w0u8rwuwcqakc33hhcabqq",
+                      "title": "05",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "Dendron",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "157xfh4lyrn9d16pxcnmb0g",
+                          "title": "2025-05-07",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "Dendron",
+                          "navExclude": false,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "wazdc4ng17k2avtkt1t4w0t",
+              "title": "MSAI UPenn Application",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "filwymswyiwdojrwinvy5xd",
+          "title": "Templates",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "01qim18175g75vsw45u3ul0",
+              "title": "Daily Journal Template",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "Dendron",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "c1bs7wsjfbhb0zipaywqv1",
+          "title": "Tutorial",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "Dendron",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "root": null,
+    "filwymswyiwdojrwinvy5xd": "root",
+    "01qim18175g75vsw45u3ul0": "filwymswyiwdojrwinvy5xd",
+    "z5mfdumpr0cv3ceh60flq8n": "root",
+    "kyx4w6mlxukzg6ch1dd0pn5": "z5mfdumpr0cv3ceh60flq8n",
+    "3p9ohrqv1juq7jdm4aado06": "kyx4w6mlxukzg6ch1dd0pn5",
+    "u31ofemlzbjl0q9yr81imh9": "3p9ohrqv1juq7jdm4aado06",
+    "2x2n5a0dcjeqg5695qj0hwl": "u31ofemlzbjl0q9yr81imh9",
+    "xgc3g6p23zra2vucy0e8gv8": "2x2n5a0dcjeqg5695qj0hwl",
+    "yqhti7mddjq3ujamya39b39": "z5mfdumpr0cv3ceh60flq8n",
+    "4m27csu12x911pxmkh1jx41": "yqhti7mddjq3ujamya39b39",
+    "0w0u8rwuwcqakc33hhcabqq": "4m27csu12x911pxmkh1jx41",
+    "157xfh4lyrn9d16pxcnmb0g": "0w0u8rwuwcqakc33hhcabqq",
+    "wazdc4ng17k2avtkt1t4w0t": "z5mfdumpr0cv3ceh60flq8n",
+    "1tlnuf6o2f3qawzg799ilzk": "root",
+    "kkyhgif43cearrkfoy8lq88": "1tlnuf6o2f3qawzg799ilzk",
+    "bd3mupfj68nrgnjejss1qqh": "root",
+    "haiy5t3m4tukr2bbv99eg88": "bd3mupfj68nrgnjejss1qqh",
+    "qpqvf2pczk7eci56g1v2y69": "haiy5t3m4tukr2bbv99eg88",
+    "uyjd4kx68gx065wutfac0sz": "bd3mupfj68nrgnjejss1qqh",
+    "50smwqnan2d83c0s0vla8ol": "uyjd4kx68gx065wutfac0sz",
+    "fn85nepxzhmx7ql22m5vxd5": "uyjd4kx68gx065wutfac0sz",
+    "k8rb1hbsxrmb9df7wxfzg9m": "uyjd4kx68gx065wutfac0sz",
+    "84jmsnscaab6df7in8r59qf": "bd3mupfj68nrgnjejss1qqh",
+    "kcua1jqpela383vrca43ku9": "84jmsnscaab6df7in8r59qf",
+    "9b69j5iu1lnlifi9bcxntut": "bd3mupfj68nrgnjejss1qqh",
+    "lgx7yt4m652gdnjzysqljk5": "bd3mupfj68nrgnjejss1qqh",
+    "o6psb2x2gkkpqfl9py3zfh0": "bd3mupfj68nrgnjejss1qqh",
+    "l1lcmphk4ubvu1aiqhcs7ib": "root",
+    "870aioz2dpxk8kzwnvn4nli": "l1lcmphk4ubvu1aiqhcs7ib",
+    "vrr0ve9gtj2tbwqq627o4ki": "870aioz2dpxk8kzwnvn4nli",
+    "i1dnk521ewgzff6gjuqvegg": "l1lcmphk4ubvu1aiqhcs7ib",
+    "p4fqn10jzymcwo4urykzqmy": "l1lcmphk4ubvu1aiqhcs7ib",
+    "0u18hsdrrjzqnaoron5m15j": "p4fqn10jzymcwo4urykzqmy",
+    "p59sm05twfmcx01ukwujhik": "p4fqn10jzymcwo4urykzqmy",
+    "klfp5chhm7wv5lap5mgxb1n": "p4fqn10jzymcwo4urykzqmy",
+    "954ui8ssdzn50me68v9qv54": "l1lcmphk4ubvu1aiqhcs7ib",
+    "j2o2nxc1xp89rdhyg323cdk": "954ui8ssdzn50me68v9qv54",
+    "fmwayy8i3aoqwxtvmy0dxyp": "l1lcmphk4ubvu1aiqhcs7ib",
+    "wz9z8az9m9aq5132p7d10co": "root",
+    "fqdu176ctl8psphu27o8oyr": "wz9z8az9m9aq5132p7d10co",
+    "69h59jt3vyfdg55g7gqc95d": "root",
+    "rikfe3qd9gvj5o6a6l92cx8": "69h59jt3vyfdg55g7gqc95d",
+    "yh9ux0ubhbjs0g53bhmwx4i": "69h59jt3vyfdg55g7gqc95d",
+    "gdjyzsq56qgyj5t5uktrsgu": "root",
+    "hhgjyt2o7ve96enic6mbr8f": "gdjyzsq56qgyj5t5uktrsgu",
+    "pd9w04xn7ievn4z7tmi7rtj": "hhgjyt2o7ve96enic6mbr8f",
+    "3x4fmd16chquma6kovvfatj": "root",
+    "bf8k3h9dttwnow9p3i48oc1": "3x4fmd16chquma6kovvfatj",
+    "c1bs7wsjfbhb0zipaywqv1": "root",
+    "oz8e6a05bjgd3cbtru3hqe2": "root",
+    "kndcs9cayrizdzefp1veykh": "oz8e6a05bjgd3cbtru3hqe2",
+    "obuonjuhcj0tlex3qqgzzyg": "kndcs9cayrizdzefp1veykh",
+    "qufzkdfqezix7zzqwzdxja2": "kndcs9cayrizdzefp1veykh",
+    "dsryuppzxk9dtugblsu7a23": "oz8e6a05bjgd3cbtru3hqe2"
+  }
+}

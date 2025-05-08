@@ -1,0 +1,44 @@
+<h1 id="message-renderer"><a aria-hidden="true" class="anchor-heading icon-link" href="#message-renderer"></a>Message Renderer</h1>
+<h2 id="design"><a aria-hidden="true" class="anchor-heading icon-link" href="#design"></a>Design</h2>
+<h3 id="spmessage-rendererstep-1--15-weeks"><a aria-hidden="true" class="anchor-heading icon-link" href="#spmessage-rendererstep-1--15-weeks"></a>SP.Message Renderer.Step 1- <em>1.5 weeks</em></h3>
+<p>The general idea here would be to create a RAG based system, where in we store the <code>messageJSON</code> along with some <code>metadata</code>(description of the messageJSON) in a vector database and then test the validity of the retrival and generation capabilites of the LLM.</p>
+<p>This step won't have an interactive experience like that of an assistant. It will <em>only</em> have the core functionality of outputting a <code>msgJSON</code> given a prompt. It will be a CLI tool that one can run locally.</p>
+<h3 id="step-2---1-week"><a aria-hidden="true" class="anchor-heading icon-link" href="#step-2---1-week"></a>Step 2 - <em>1 week</em></h3>
+<p>During this week we will build out an evaluation systems where we will take 20 msgJSONs from the system that we create ourselves using a <code>prompt</code> and then we will provide the same prompt to the LLM and test the validity of the results. </p>
+<blockquote>
+<p>Based on what we find, we will increase the number of examples of msgJSONs our vector database or pivot to a different approach like <code>fineTuning</code>. If we find that we might need to rethink the structure of the <code>msgJSON</code> to better leverage the LLMs abilities to <em>only</em> alter the <strong>style</strong> and <strong>text</strong> of the message, we might have to re-think the <code>messageJSON</code> structure and change the way the rendering application works to accommodate for this change in structure - <strong>PIVOT CAN TAKE UPTO 3 WEEKS</strong></p>
+</blockquote>
+<h3 id="step-3---2-weeks"><a aria-hidden="true" class="anchor-heading icon-link" href="#step-3---2-weeks"></a>Step 3 - <em>2 weeks</em></h3>
+<p>Assuming that the RAG approach works, we will then build out an assistant type experience to generate the <code>msgJSON</code>. This <em>may</em> entail building out a service that can maintain conversation context / state so multiple clients can interact with it. We <em>may</em> implement streaming responses using OpenAI's streaming API.</p>
+<h3 id="step-4----weeks"><a aria-hidden="true" class="anchor-heading icon-link" href="#step-4----weeks"></a>Step 4 - <em>? weeks</em></h3>
+<p>We will then build out the front-end integrations within portal to integrate with this message rendering service. The integration will be a chat like experience where in you can have a conversation with an "agent" to build you a message. </p>
+<h3 id="setting-expectations"><a aria-hidden="true" class="anchor-heading icon-link" href="#setting-expectations"></a>Setting expectations</h3>
+<ul>
+<li>
+<p>What percentage of customer messages do you want the AI renderer to automate?</p>
+</li>
+<li>
+<p>How much quicker are customers able to setup messages?</p>
+</li>
+<li>
+<p>How much human labor does the chatbot save?</p>
+</li>
+<li>
+<p>What is the customer sentiment and feedback for this system?</p>
+</li>
+</ul>
+<h3 id="milestone-planning"><a aria-hidden="true" class="anchor-heading icon-link" href="#milestone-planning"></a>Milestone planning</h3>
+<ul>
+<li>
+<p>End customer review of message quality</p>
+</li>
+<li>
+<p>Cost: how much it costs / inference</p>
+</li>
+</ul>
+<h3 id="maintenance"><a aria-hidden="true" class="anchor-heading icon-link" href="#maintenance"></a>Maintenance</h3>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/dendron-main/notes/j2o2nxc1xp89rdhyg323cdk">Step 1</a></li>
+</ol>

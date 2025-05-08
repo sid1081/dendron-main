@@ -1,0 +1,13 @@
+<h1 id="setup"><a aria-hidden="true" class="anchor-heading icon-link" href="#setup"></a>Setup</h1>
+<h1 id="setup-for-node-for-typescript"><a aria-hidden="true" class="anchor-heading icon-link" href="#setup-for-node-for-typescript"></a>Setup for Node for Typescript</h1>
+<pre><code>mkdir my-node-app
+cd my-node-app/
+git init
+npm init -y
+npm i -D typescript ts-node @types/node
+npx tsc --init
+</code></pre>
+<h1 id="packagejson-setup"><a aria-hidden="true" class="anchor-heading icon-link" href="#packagejson-setup"></a>Package.json setup</h1>
+<pre><code>"build": "tsc",
+"dev": "node --env-file=.env --watch -r ts-node/register src/index.ts",
+</code></pre>

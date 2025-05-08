@@ -1,0 +1,29 @@
+<h1 id="legal-doc-publish-changes"><a aria-hidden="true" class="anchor-heading icon-link" href="#legal-doc-publish-changes"></a>Legal Doc Publish Changes</h1>
+<h3 id="schema-changes"><a aria-hidden="true" class="anchor-heading icon-link" href="#schema-changes"></a>Schema changes</h3>
+<ul>
+<li>Add <code>status</code> - <code>'LIVE' | 'PREV_LIVE' | 'DRAFT'</code></li>
+<li>Add <code>publishedAt</code> - <code>Date</code></li>
+<li>Remove goLiveDate</li>
+</ul>
+<h3 id="api-changes"><a aria-hidden="true" class="anchor-heading icon-link" href="#api-changes"></a>API Changes</h3>
+<ul>
+<li>
+<p>Change the query for fetching the latest doc for a container by leveraging the <code>status</code> instead of the <code>goLiveDate</code>.</p>
+</li>
+<li>
+<p>Update ALL Legal Doc APIs to conform with new schema.</p>
+</li>
+<li>
+<p>Update relevant Legal Doc APIs to account for new features - </p>
+<ul>
+<li>New PUT <code>/publish</code> endpoint that publishes a new legal doc:
+<ul>
+<li>Only a doc in <code>DRAFT</code> mode can be published.</li>
+<li>Need to mark currently <code>LIVE</code> doc as <code>PREV_LIVE</code>.</li>
+<li>Need to update <code>publishedAt</code> date.</li>
+</ul>
+</li>
+<li>POST endpoint should set the status of the legal doc to <code>DRAFT</code>.</li>
+</ul>
+</li>
+</ul>

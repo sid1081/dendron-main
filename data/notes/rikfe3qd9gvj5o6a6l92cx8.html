@@ -1,0 +1,404 @@
+<h1 id="tutorial"><a aria-hidden="true" class="anchor-heading icon-link" href="#tutorial"></a>Tutorial</h1>
+<h3 id="intro"><a aria-hidden="true" class="anchor-heading icon-link" href="#intro"></a>Intro</h3>
+<ul>
+<li>
+<p>The DOM is an object representation of the HTML elements. It acts as a bridge between your code and the user interface, and has a tree-like structure with parent and child relationships.</p>
+</li>
+<li>
+<p>You can use DOM methods and JavaScript, to listen to user events and manipulate the DOM by selecting, adding, updating, and deleting specific elements in the user interface. DOM manipulation allows you to not only target specific elements, but also change their style and content.</p>
+</li>
+<li>
+<p>Updating the DOM with plain JavaScript is very powerful but verbose. You've written all this code to add an <code>&#x3C;h1></code> element with some text:</p>
+</li>
+<li>
+<p>As the size of an app or team grows, it can become increasingly challenging to build applications this way - writing code that manuipulates the DOM to perform business logic.</p>
+</li>
+<li>
+<p>With this approach, developers spend a lot of time writing instructions to tell the computer how it should do things. But wouldn't it be nice to describe what you want to show and let the computer figure out how to update the DOM?</p>
+</li>
+</ul>
+<h3 id="trees-in-react"><a aria-hidden="true" class="anchor-heading icon-link" href="#trees-in-react"></a>Trees in React</h3>
+<ul>
+<li>
+<p>Trees are a common way to represent the relationship between entities. They are often used to model UI.</p>
+</li>
+<li>
+<p>Render trees represent the nested relationship between React components across a single render.</p>
+</li>
+<li>
+<p>With conditional rendering, the render tree may change across different renders. With different prop values, components may render different children components.</p>
+</li>
+<li>
+<p>Render trees help identify what the top-level and leaf components are. Top-level components affect the rendering performance of all components beneath them and leaf components are often re-rendered frequently. Identifying them is useful for understanding and debugging rendering performance.</p>
+</li>
+<li>
+<p>Dependency trees represent the module dependencies in a React app.</p>
+</li>
+<li>
+<p>Dependency trees are used by build tools to bundle the necessary code to ship an app.</p>
+</li>
+<li>
+<p>Dependency trees are useful for debugging large bundle sizes that slow time to paint and expose opportunities for optimizing what code is bundled.Trees are a common way to represent the relationship between entities. They are often used to model UI.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p>Render trees represent the nested relationship between React components across a single render.</p>
+</li>
+<li>
+<p>With conditional rendering, the render tree may change across different renders. With different prop values, components may render different children components.</p>
+</li>
+<li>
+<p>Render trees help identify what the top-level and leaf components are. Top-level components affect the rendering performance of all components beneath them and leaf components are often re-rendered frequently. Identifying them is useful for understanding and debugging rendering performance.</p>
+</li>
+<li>
+<p>Dependency trees represent the module dependencies in a React app.</p>
+</li>
+<li>
+<p>Dependency trees are used by build tools to bundle the necessary code to ship an app.</p>
+</li>
+<li>
+<p>Dependency trees are useful for debugging large bundle sizes that slow time to paint and expose opportunities for optimizing what code is bundled.</p>
+</li>
+</ul>
+<h3 id="advantages-of-react"><a aria-hidden="true" class="anchor-heading icon-link" href="#advantages-of-react"></a>Advantages of React</h3>
+<ul>
+<li>
+<p><strong>Keeping a button’s rendering logic and markup together ensures that they stay in sync with each other on every edit. Conversely, details that are unrelated, such as the button’s markup and a sidebar’s markup, are isolated from each other, making it safer to change either of them on their own.</strong> - this is one of the main advantages of React, along with... </p>
+</li>
+<li>
+<p><strong>The main performance advantage comes from React's Virtual DOM approach: In vanilla JS: When you add a new tag, you'd typically: Get a reference to the dropdown, Create a new element, Set its properties, Append it to the DOM, This triggers a complete recalculation of layout, styles, and page rendering (reflow and repaint) which is expensive, especially if your dropdown has many items. In React: When a tag is added: React updates its virtual DOM first (which is just a JavaScript object), Compares it with the previous state (diffing), Only applies the minimal necessary changes to the real DOM.</strong></p>
+</li>
+<li>
+<p>Components allow you to build self-contained, reusable snippets of code. If you think of components as LEGO bricks, you can take these individual bricks and combine them together to form larger structures. If you need to update a piece of the UI, you can update the specific component or brick.</p>
+</li>
+<li>
+<p>This modularity allows your code to be more maintainable as it grows because you can add, update, and delete components without touching the rest of our application.</p>
+</li>
+</ul>
+<h3 id="working-with-jsx"><a aria-hidden="true" class="anchor-heading icon-link" href="#working-with-jsx"></a>Working with JSX</h3>
+<ul>
+<li>
+<p>To return multiple elements from a component, wrap them with a single parent tag.</p>
+</li>
+<li>
+<p>For example, you can use a <code>&#x3C;div></code>:</p>
+</li>
+<li>
+<p>If you don’t want to add an extra <code>&#x3C;div></code> to your markup, you can write &#x3C;> and &#x3C;/> instead:</p>
+</li>
+<li>
+<p>This empty tag is called a <strong>Fragment</strong>. Fragments let you group things without leaving any trace in the browser HTML tree.</p>
+</li>
+<li>
+<p>JSX looks like HTML, but under the hood it is transformed into plain <em>JavaScript objects</em>. You can’t return two objects from a function without wrapping them into an array. This explains why you also can’t return two JSX tags without wrapping them into another tag or a Fragment.</p>
+</li>
+<li>
+<p>But browsers don't understand JSX out of the box, so you'll need a JavaScript compiler, such as a Babel, to transform your JSX code into regular JavaScript.</p>
+</li>
+</ul>
+<h3 id="passing-data-with-props"><a aria-hidden="true" class="anchor-heading icon-link" href="#passing-data-with-props"></a>Passing data with props</h3>
+<ul>
+<li>
+<p>Regular HTML elements have attributes that you can use to pass pieces of information that change the behavior of those elements. For example, changing the src attribute of an <code>&#x3C;img></code> element changes the image that is shown. Changing the href attribute of an <code>&#x3C;a></code> tag changes the destination of the link.</p>
+</li>
+<li>
+<p>In the same way, you can pass pieces of information as properties to React components. These are called props. Take for instance, the possible variations of a button:</p>
+</li>
+<li>
+<p>Note: In React, data flows down the component tree. This is referred to as one-way data flow. State, which will be discussed in the next chapter, can be passed from parent to child components as props.</p>
+</li>
+<li>
+<p>You can think of curly braces as a way to enter "JavaScript land" while you are in "JSX land". You can add any JavaScript expression (something that evaluates to a single value) inside curly braces.</p>
+</li>
+</ul>
+<h3 id="managing-state-with-hooks"><a aria-hidden="true" class="anchor-heading icon-link" href="#managing-state-with-hooks"></a>Managing state with hooks</h3>
+<ul>
+<li>
+<p>React has a set of functions called hooks. Hooks allow you to add additional logic such as state to your components. You can think of state as any information in your UI that changes over time, usually triggered by user interaction.</p>
+</li>
+<li>
+<p>Sharing state between components </p>
+</li>
+<li>
+<p>Sometimes, you want the state of two components to always change together. To do it, remove state from both of them, move it to their closest common parent, and then pass it down to them via props. This is known as “lifting state up”, and it’s one of the most common things you will do writing React code.</p>
+</li>
+<li>
+<p>You can use Context and Reducer to share state between Parent and deep child components.</p>
+</li>
+</ul>
+<h3 id="responding-to-events"><a aria-hidden="true" class="anchor-heading icon-link" href="#responding-to-events"></a>Responding to events</h3>
+<ul>
+<li>
+<p>You can handle events by passing a function as a prop to an element like <code>&#x3C;button></code>.</p>
+</li>
+<li>
+<p>Event handlers must be passed, not called! onClick={handleClick}, not onClick={handleClick()}.</p>
+</li>
+<li>
+<p>You can define an event handler function separately or inline.</p>
+</li>
+<li>
+<p>Event handlers are defined inside a component, so they can access props.</p>
+</li>
+<li>
+<p>You can declare an event handler in a parent and pass it as a prop to a child.</p>
+</li>
+<li>
+<p>You can define your own event handler props with application-specific names.</p>
+</li>
+<li>
+<p>Events propagate upwards. Call e.stopPropagation() on the first argument to prevent that.</p>
+</li>
+<li>
+<p>Events may have unwanted default browser behavior. Call <code>e.preventDefault()</code> to prevent that.</p>
+</li>
+<li>
+<p>Explicitly calling an event handler prop from a child handler is a good alternative to propagation.</p>
+</li>
+</ul>
+<h3 id="server-and-client-components"><a aria-hidden="true" class="anchor-heading icon-link" href="#server-and-client-components"></a>Server and Client Components</h3>
+<ul>
+<li>
+<p>The Network Boundary is a conceptual line that separates the different environments.</p>
+</li>
+<li>
+<p>In React, you choose where to place the network boundary in your component tree. For example, you can fetch data and render a user's posts on the server (using Server Components), then render the interactive LikeButton for each post on the client (using Client Components).</p>
+</li>
+<li>
+<p>Similarly, you can create a Nav component that is rendered on the server and shared across pages, but if you want to show an active state for links, you can render the list of Links on the client.</p>
+</li>
+</ul>
+<h3 id="optimizing-fonts-and-images"><a aria-hidden="true" class="anchor-heading icon-link" href="#optimizing-fonts-and-images"></a>Optimizing fonts and images</h3>
+<ul>
+<li>
+<p>Fonts play a significant role in the design of a website, but using custom fonts in your project can affect performance if the font files need to be fetched and loaded.</p>
+</li>
+<li>
+<p><strong>Cumulative Layout Shift(CLS)</strong> is a metric used by Google to evaluate the performance and user experience of a website. With fonts, layout shift happens when the browser initially renders text in a fallback or system font and then swaps it out for a custom font once it has loaded. This swap can cause the text size, spacing, or layout to change, shifting elements around it.</p>
+</li>
+<li>
+<p>Next.js automatically optimizes fonts in the application when you use the next/font module. It downloads font files at build time and hosts them with your other static assets. This means when a user visits your application, there are no additional network requests for fonts which would impact performance.</p>
+</li>
+<li>
+<p>However, this means you have to manually:</p>
+<ul>
+<li>Ensure your image is responsive on different screen sizes.</li>
+<li>Specify image sizes for different devices.</li>
+<li>Prevent layout shift as the images load.</li>
+<li>Lazy load images that are outside the user's viewport.</li>
+<li>Image Optimization is a large topic in web development that could be considered a specialization in itself. Instead of manually implementing these optimizations, you can use the next/image component to automatically optimize your images.</li>
+</ul>
+</li>
+<li>
+<p>By adding Inter to the <code>&#x3C;body></code> element, the font will be applied throughout your application. Here, you're also adding the Tailwind antialiased class <em>which smooths out the font. It's not necessary to use this class, but it adds a nice touch.</em>
+Next.js can serve static assets, like images, under the top-level /public folder. Files inside /public can be referenced in your application.</p>
+</li>
+</ul>
+<h3 id="using-layouts"><a aria-hidden="true" class="anchor-heading icon-link" href="#using-layouts"></a>Using Layouts</h3>
+<ul>
+<li>
+<p>Dashboards have some sort of navigation that is shared across multiple pages. In Next.js, you can use a special layout.tsx file to create UI that is shared between multiple pages. Let's create a layout for the dashboard pages!</p>
+</li>
+<li>
+<p>First, you're importing the <code>&#x3C;SideNav /></code> component into your layout. Any components you import into this file will be part of the layout.</p>
+</li>
+<li>
+<p>The <code>&#x3C;Layout /></code> component receives a children prop. This child can either be a page or another layout.</p>
+</li>
+<li>
+<p>One benefit of using layouts in Next.js is that on navigation, only the page components update while the layout won't re-render. This is called partial rendering which preserves client-side React state in the layout when transitioning between pages.</p>
+</li>
+<li>
+<p>This is called a root layout and is required in every Next.js application. Any UI you add to the root layout will be shared across all pages in your application. You can use the root layout to modify your <code>&#x3C;html></code> and <code>&#x3C;body></code> tags, and add metadata (you'll learn more about metadata in a later chapter).</p>
+</li>
+</ul>
+<h3 id="routing-and-code-splitting"><a aria-hidden="true" class="anchor-heading icon-link" href="#routing-and-code-splitting"></a>Routing and code-splitting</h3>
+<ul>
+<li>
+<p>Code splitting allows you to split your application code into smaller bundles to be downloaded and executed by the browser. This reduces the amount of data transferred and execution time for each request, leading to improved performance.</p>
+</li>
+<li>
+<p>Server Components allow your application code to be automatically code-split by route segments. This means only the code needed for the current route is loaded on navigation.</p>
+</li>
+</ul>
+<ul>
+<li>The App Router uses a hybrid approach for routing and navigation. On the server, your application code is automatically code-split by route segments. And on the client, Next.js prefetches and caches the route segments. This means, when a user navigates to a new route, the browser doesn't reload the page, and only the route segments that change re-render - improving the navigation experience and performance.</li>
+</ul>
+<ul>
+<li>
+<p>To improve the navigation experience, Next.js automatically code splits your application by route segments. This is different from a traditional React SPA, where the browser loads all your application code on the initial page load.</p>
+</li>
+<li>
+<p>Splitting code by routes means that pages become isolated. If a certain page throws an error, the rest of the application will still work. This is also less code for the browser to parse, which makes your application faster.</p>
+</li>
+<li>
+<p>Furthermore, in production, whenever <code>&#x3C;Link></code> components appear in the browser's viewport, Next.js automatically prefetches the code for the linked route in the background. By the time the user clicks the link, the code for the destination page will already be loaded in the background, and this is what makes the page transition near-instant!</p>
+</li>
+</ul>
+<h3 id="fetching-data"><a aria-hidden="true" class="anchor-heading icon-link" href="#fetching-data"></a>Fetching Data</h3>
+<p>API layer</p>
+<ul>
+<li>
+<p>APIs are an intermediary layer between your application code and database. There are a few cases where you might use an API:</p>
+<ul>
+<li>If you're using third-party services that provide an API.</li>
+<li>If you're fetching data from the client, you want to have an API layer that runs on the server to avoid exposing your database secrets to the client.</li>
+</ul>
+</li>
+<li>
+<p>In Next.js, you can create API endpoints using Route Handlers.</p>
+</li>
+<li>
+<p>Database queries</p>
+<ul>
+<li>When you're creating a full-stack application, you'll also need to write logic to interact with your database. For relational databases like Postgres, you can do this with SQL or with an ORM.</li>
+</ul>
+</li>
+<li>
+<p>There are a few cases where you have to write database queries:</p>
+<ul>
+<li>When creating your API endpoints, you need to write logic to interact with your database.</li>
+<li>If you are using React Server Components (fetching data on the server), you can skip the API layer, and query your database directly without risking exposing your database secrets to the client.</li>
+</ul>
+</li>
+<li>
+<p>Using Server Components to fetch data. By default, Next.js applications use React Server Components. Fetching data with Server Components is a relatively new approach and there are a few benefits of using them:</p>
+</li>
+<li>
+<p>Server Components support JavaScript Promises, providing a solution for asynchronous tasks like data fetching natively. You can use async/await syntax without needing useEffect, useState or other data fetching libraries.</p>
+</li>
+<li>
+<p>Server Components run on the server, so you can keep expensive data fetches and logic on the server, only sending the result to the client.</p>
+</li>
+<li>
+<p>Since Server Components run on the server, you can query the database directly without an additional API layer. This saves you from writing and maintaining additional code.</p>
+</li>
+</ul>
+<h3 id="project-structure-for-a-next-js-app"><a aria-hidden="true" class="anchor-heading icon-link" href="#project-structure-for-a-next-js-app"></a>Project structure for a Next JS app</h3>
+<ul>
+<li>
+<p><code>/app</code>: Contains all the routes, components, and logic for your application, this is where you'll be mostly working from.</p>
+</li>
+<li>
+<p><code>/app/lib</code>: Contains functions used in your application, such as reusable utility functions and data fetching functions.</p>
+</li>
+<li>
+<p><code>/app/ui</code>: Contains all the UI components for your application, such as cards, tables, and forms. To save time, we've pre-styled these components for you.</p>
+</li>
+<li>
+<p><code>/public</code>: Contains all the static assets for your application, such as images.</p>
+</li>
+<li>
+<p>Config Files: You'll also notice config files such as next.config.ts at the root of your application. Most of these files are created and pre-configured when you start a new project using create-next-app. You will not need to modify them in this course.</p>
+</li>
+</ul>
+<h3 id="working-with-images-in-next-js"><a aria-hidden="true" class="anchor-heading icon-link" href="#working-with-images-in-next-js"></a>Working with images in Next JS</h3>
+<ul>
+<li>
+<p>Next.js can serve static assets, like images, under the top-level /public folder. Files inside /public can be referenced in your application.</p>
+</li>
+<li>
+<p>With regular HTML, you would add an image as follows:</p>
+<pre><code>&#x3C;img
+src="/hero.png"
+alt="Screenshots of the dashboard project showing desktop version"
+/>
+</code></pre>
+</li>
+<li>
+<p>However, this means you have to manually:</p>
+<ul>
+<li>Ensure your image is responsive on different screen sizes.</li>
+<li>Specify image sizes for different devices.</li>
+<li>Prevent layout shift as the images load.</li>
+<li>Lazy load images that are outside the user's viewport.</li>
+<li>Image Optimization is a large topic in web development that could be considered a specialization in itself. Instead of manually implementing these optimizations, you can use the next/image component to automatically optimize your images.</li>
+</ul>
+</li>
+<li>
+<p>The <code>&#x3C;Image></code> Component is an extension of the HTML <code>&#x3C;img></code> tag, and comes with automatic image optimization, such as:</p>
+<ul>
+<li>Preventing layout shift automatically when images are loading.</li>
+<li>Resizing images to avoid shipping large images to devices with a smaller viewport.</li>
+<li>Lazy loading images by default (images load as they enter the viewport).</li>
+<li>Serving images in modern formats, like WebP and AVIF, when the browser supports it.</li>
+</ul>
+</li>
+<li>
+<p>It's good practice to set the width and height of your images to avoid layout shift, these should be an aspect ratio <em>identical</em> to the source image. These values are not the size the image is rendered, but instead the size of the actual image file used to understand the aspect ratio.</p>
+</li>
+</ul>
+<h3 id="static-rendering-vs-dynamic-rendering"><a aria-hidden="true" class="anchor-heading icon-link" href="#static-rendering-vs-dynamic-rendering"></a>Static Rendering vs Dynamic Rendering</h3>
+<ul>
+<li>
+<p>With <strong>static rendering</strong>, data fetching and rendering happens on the server at build time (when you deploy) or when revalidating data. Whenever a user visits your application, the cached result is served.</p>
+</li>
+<li>
+<p>There are a couple of benefits of static rendering:</p>
+<ul>
+<li>Faster Websites - Prerendered content can be cached and globally distributed when deployed to platforms like Vercel. This ensures that users around the world can access your website's content more quickly and reliably.</li>
+<li>Reduced Server Load - Because the content is cached, your server does not have to dynamically generate content for each user request. This can reduce compute costs.</li>
+<li>SEO - Prerendered content is easier for search engine crawlers to index, as the content is already available when the page loads. This can lead to improved search engine rankings.</li>
+<li>Static rendering is useful for UI with no data or data that is shared across users, such as a static blog post or a product page. It might not be a good fit for a dashboard that has personalized data which is regularly updated.</li>
+</ul>
+</li>
+<li>
+<p>With <strong>dynamic rendering</strong>, content is rendered on the server for each user at request time (when the user visits the page). There are a couple of benefits of dynamic rendering:</p>
+<ul>
+<li>Real-Time Data - Dynamic rendering allows your application to display real-time or frequently updated data. This is ideal for applications where data changes often.</li>
+<li>User-Specific Content - It's easier to serve personalized content, such as dashboards or user profiles, and update the data based on user interaction.</li>
+<li>Request Time Information - Dynamic rendering allows you to access information that can only be known at request time, such as cookies or the URL search parameters.</li>
+</ul>
+</li>
+</ul>
+<h3 id="streaming-and-suspense"><a aria-hidden="true" class="anchor-heading icon-link" href="#streaming-and-suspense"></a>Streaming and Suspense</h3>
+<ul>
+<li>Deciding where to place your Suspense boundaries:
+<ul>
+<li>You could stream the whole page like we did with loading.tsx... but that may lead to a longer loading time if one of the components has a slow data fetch.</li>
+<li>You could stream every component individually... but that may lead to UI popping into the screen as it becomes ready.</li>
+<li>You could also create a staggered effect by streaming page sections. But you'll need to create wrapper components.</li>
+<li>Where you place your suspense boundaries will vary depending on your application. In general, it's good practice to move your data fetches down to the components that need it, and then wrap those components in Suspense. But there is nothing wrong with streaming the sections or the whole page if that's what your application needs.</li>
+</ul>
+</li>
+</ul>
+<h3 id="search-and-pagination"><a aria-hidden="true" class="anchor-heading icon-link" href="#search-and-pagination"></a>Search and Pagination</h3>
+<ul>
+<li>
+<p>As mentioned above, you'll be using URL search params to manage the search state. This pattern may be new if you're used to doing it with client side state.</p>
+</li>
+<li>
+<p>There are a couple of benefits of implementing search with URL params:</p>
+<ul>
+<li><strong>Bookmarkable and shareable URLs</strong>: Since the search parameters are in the URL, users can bookmark the current state of the application, including their search queries and filters, for future reference or sharing.</li>
+<li><strong>Server-side rendering</strong>: URL parameters can be directly consumed on the server to render the initial state, making it easier to handle server rendering.</li>
+<li><strong>Analytics and tracking</strong>: Having search queries and filters directly in the URL makes it easier to track user behavior without requiring additional client-side logic.</li>
+</ul>
+</li>
+<li>
+<p>When to use the useSearchParams() hook vs. the searchParams prop?</p>
+<ul>
+<li>You might have noticed you used two different ways to extract search params. Whether you use one or the other depends on whether you're working on the client or the server.</li>
+<li><code>Search</code> is a Client Component, so you used the useSearchParams() hook to access the params from the client.</li>
+<li><code>Table</code> is a Server Component that fetches its own data, so you can pass the searchParams prop from the page to the component.</li>
+<li>As a general rule, if you want to read the params from the client, use the useSearchParams() hook as this avoids having to go back to the server.</li>
+</ul>
+</li>
+<li>
+<p>Revalidate and redirect</p>
+<ul>
+<li>
+<p>Next.js has a client-side router cache that stores the route segments in the user's browser for a time. Along with prefetching, this cache ensures that users can quickly navigate between routes while reducing the number of requests made to the server.</p>
+</li>
+<li>
+<p>Since you're updating the data displayed in the invoices route, you want to clear this cache and trigger a new request to the server. You can do this with the revalidatePath function from Next.js.</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron-main/notes/lgx7yt4m652gdnjzysqljk5">Goals</a></li>
+</ul>
